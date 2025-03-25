@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns="http://www.w3.org/2000/svg" height="6400" viewBox="0 0 1600 6400" width="1600">
+	<script>
+		function handleKdn(event) {return parent.window.handleKdn(event)};
+
+		function handleBoxMdn(event,jnum) {return parent.window.handleBoxMdn(document,event,jnum)};
+		function handleBoxMove(event,jnum) {return parent.window.handleBoxMove(document,event,jnum)};
+		function handleBoxMup(event,jnum) {return parent.window.handleBoxMup(document,jnum)};
+
+		function handleRowMov(event,jnum,jnumBox) {return parent.window.handleRowMov(event,jnum,jnumBox)};
+		function handleRowMou(jnum,jnumBox) {return parent.window.handleRowMou(jnum,jnumBox)};
+		function handleRowClick(event,jnum,jnumBox,num) {return parent.window.handleRowClick(event,jnum,jnumBox,num)};
+
+		document.onkeydown = handleKdn;
+	</script>
+	<style>
+		<!-- require inline CSS for standalone view and export to .pdf -->
+		g {
+			cursor:pointer;
+		}
+		.box {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #3F3F3F);
+		}
+		.boxlite {
+			stroke:#7F7F7F;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #BFBFBF);
+		}
+		.link {
+			stroke:#000000;
+			stroke-width:0.5px;
+		}
+		.linklite {
+			stroke:#7F7F7F;
+			stroke-width:0.5px;
+		}
+		.icon {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1px;
+			cursor:pointer;
+		}
+		.icon:hover {
+			stroke:#FF7F00;
+		}
+		.bihdr {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#000000;
+			text-anchor:middle;
+		}
+		.bihdrlite {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#7F7F7F;
+			text-anchor:middle;
+		}
+		.bi {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#000000;
+		}
+		.bifil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.bitbl {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.biretr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+		.bivec {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#7F7F7F;
+		}
+		.biaffil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.bipref {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.biinc {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#00FFFF;
+		}
+		.bijovr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.biaxis {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.bityp {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+	</style>
+	<line id="lnk3188" x1="785" y1="492" x2="587" y2="581" class="link"/>
+	<line id="lnk3189" x1="1387" y1="446" x2="1386" y2="264" class="link"/>
+	<line id="lnk3190" x1="1185" y1="375" x2="982" y2="410" class="link"/>
+	<line id="lnk3191" x1="176" y1="249" x2="351" y2="550" class="link"/>
+	<line id="lnk3192" x1="176" y1="249" x2="420" y2="290" class="link"/>
+	<line id="lnk3193" x1="176" y1="249" x2="137" y2="432" class="link"/>
+	<line id="lnk3194" x1="176" y1="249" x2="132" y2="86" class="link"/>
+	<line id="lnk3195" x1="176" y1="249" x2="394" y2="124" class="link"/>
+	<line id="lnk3196" x1="674" y1="229" x2="785" y2="492" class="link"/>
+	<line id="lnk3197" x1="674" y1="229" x2="589" y2="435" class="link"/>
+	<line id="lnk3198" x1="674" y1="229" x2="420" y2="290" class="link"/>
+	<line id="lnk3199" x1="674" y1="229" x2="886" y2="116" class="link"/>
+	<line id="lnk3200" x1="1176" y1="170" x2="1387" y2="446" class="link"/>
+	<line id="lnk3201" x1="1176" y1="170" x2="1185" y2="375" class="link"/>
+	<line id="lnk3202" x1="1176" y1="170" x2="1385" y2="90" class="link"/>
+	<line id="lnk3203" x1="351" y1="550" x2="383" y2="407" class="link"/>
+	<g id="box4466" transform="translate(700,421)" onmousedown="handleBoxMdn(event,4466)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmAMLibraryMakefile</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,2,4466)" onmouseout="handleRowMou(2,4466)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,3,4466)" onmouseout="handleRowMou(3,4466)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMLibrary</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,4,4466)" onmouseout="handleRowMou(4,4466)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="biaxis">x1RefWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,5,4466)" onmouseout="handleRowMou(5,4466)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="biaxis">x2SrefKTag</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,6,4466)" onmouseout="handleRowMou(6,4466)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">Val</tspan>
+		</text>
+	</g>
+	<g id="box4467" transform="translate(504,375)" onmousedown="handleBoxMdn(event,4467)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmAMLibraryPkglist</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,8,4467)" onmouseout="handleRowMou(8,4467)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,9,4467)" onmouseout="handleRowMou(9,4467)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMLibrary</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,10,4467)" onmouseout="handleRowMou(10,4467)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="biaxis">x1RefWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,11,4467)" onmouseout="handleRowMou(11,4467)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">Pkglist</tspan>
+		</text>
+	</g>
+	<g id="box4468" transform="translate(1302,386)" onmousedown="handleBoxMdn(event,4468)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmAMMachineMakefile</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,13,4468)" onmouseout="handleRowMou(13,4468)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,14,4468)" onmouseout="handleRowMou(14,4468)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,15,4468)" onmouseout="handleRowMou(15,4468)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="biaxis">x1SrefKTag</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,16,4468)" onmouseout="handleRowMou(16,4468)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">Val</tspan>
+		</text>
+	</g>
+	<g id="box4469" transform="translate(1100,315)" onmousedown="handleBoxMdn(event,4469)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmAMMachinePar</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,18,4469)" onmouseout="handleRowMou(18,4469)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,19,4469)" onmouseout="handleRowMou(19,4469)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,20,4469)" onmouseout="handleRowMou(20,4469)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="biaxis">x1SrefKKey</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,21,4469)" onmouseout="handleRowMou(21,4469)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">Val</tspan>
+		</text>
+	</g>
+	<g id="box4470" transform="translate(91,167)" onmousedown="handleBoxMdn(event,4470)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmMComponent</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,23,4470)" onmouseout="handleRowMou(23,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,24,4470)" onmouseout="handleRowMou(24,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bityp">ixVBasetype</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,25,4470)" onmouseout="handleRowMou(25,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">refWznmMVersion</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,26,4470)" onmouseout="handleRowMou(26,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">sref</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,27,4470)" onmouseout="handleRowMou(27,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">Title</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,28,4470)" onmouseout="handleRowMou(28,4470)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bi">Comment</tspan>
+		</text>
+	</g>
+	<g id="box4471" transform="translate(589,136)" onmousedown="handleBoxMdn(event,4471)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmMLibrary</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,30,4471)" onmouseout="handleRowMou(30,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,31,4471)" onmouseout="handleRowMou(31,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">sref</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,32,4471)" onmouseout="handleRowMou(32,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">Title</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,33,4471)" onmouseout="handleRowMou(33,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">Version</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,34,4471)" onmouseout="handleRowMou(34,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">srefKLictype</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,35,4471)" onmouseout="handleRowMou(35,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bi">depSrefsWznmMLibrary</tspan>
+		</text>
+		<path d="M0.0,154L170,154L170,176L0.0,176L0.0,154z" class="box" onmousemove="handleRowMov(event,36,4471)" onmouseout="handleRowMou(36,4471)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="168" class="bi">Comment</tspan>
+		</text>
+	</g>
+	<g id="box4472" transform="translate(1091,88)" onmousedown="handleBoxMdn(event,4472)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,38,4472)" onmouseout="handleRowMou(38,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,39,4472)" onmouseout="handleRowMou(39,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">supRefWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,40,4472)" onmouseout="handleRowMou(40,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">sref</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,41,4472)" onmouseout="handleRowMou(41,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">cchRefWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,42,4472)" onmouseout="handleRowMou(42,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">srefKPkgmgr</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,43,4472)" onmouseout="handleRowMou(43,4472)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bi">Comment</tspan>
+		</text>
+	</g>
+	<g id="box4473" transform="translate(266,468)" onmousedown="handleBoxMdn(event,4473)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmMRelease</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,45,4473)" onmouseout="handleRowMou(45,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,46,4473)" onmouseout="handleRowMou(46,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMComponent</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,47,4473)" onmouseout="handleRowMou(47,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">refWznmMMachine</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,48,4473)" onmouseout="handleRowMou(48,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bi">sref</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,49,4473)" onmouseout="handleRowMou(49,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">srefsKOption</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,50,4473)" onmouseout="handleRowMou(50,4473)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bi">Comment</tspan>
+		</text>
+	</g>
+	<g id="box4474" transform="translate(335,241)" onmousedown="handleBoxMdn(event,4474)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmRMComponentMLibrary</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,52,4474)" onmouseout="handleRowMou(52,4474)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,53,4474)" onmouseout="handleRowMou(53,4474)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMComponent</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,54,4474)" onmouseout="handleRowMou(54,4474)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">refWznmMLibrary</tspan>
+		</text>
+	</g>
+	<g id="box4475" transform="translate(52,383)" onmousedown="handleBoxMdn(event,4475)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">TblWznmRMComponentMOppack</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box" onmousemove="handleRowMov(event,56,4475)" onmouseout="handleRowMou(56,4475)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,57,4475)" onmouseout="handleRowMou(57,4475)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bi">refWznmMComponent</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,58,4475)" onmouseout="handleRowMou(58,4475)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bi">refWznmMOppack</tspan>
+		</text>
+	</g>
+	<g id="box4476" transform="translate(47,53)" onmousedown="handleBoxMdn(event,4476)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmWMComponentSubset</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,56L0.0,56L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">compileable component (SbsWznmBMComponentCcp)</tspan>
+			<tspan x="4" y="48" class="bivec">operation engine (SbsWznmBMComponentOen)</tspan>
+		</text>
+	</g>
+	<g id="box4477" transform="translate(309,37)" onmousedown="handleBoxMdn(event,4477)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVMComponentBasetype</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,164L0.0,164L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">main engine (eng)</tspan>
+			<tspan x="4" y="48" class="bivec">operation engine (openg)</tspan>
+			<tspan x="4" y="60" class="bivec">combined engine (cmbeng)</tspan>
+			<tspan x="4" y="72" class="bivec">database access library (dbs)</tspan>
+			<tspan x="4" y="84" class="bivec">Vue.js app (vueapp)</tspan>
+			<tspan x="4" y="96" class="bivec">web app user interface files (webapp)</tspan>
+			<tspan x="4" y="108" class="bivec">API library (api)</tspan>
+			<tspan x="4" y="120" class="bivec">C# API library (csapi)</tspan>
+			<tspan x="4" y="132" class="bivec">Java API package (japi)</tspan>
+			<tspan x="4" y="144" class="bivec">Python API package (pyapi)</tspan>
+			<tspan x="4" y="156" class="bivec">Swift API package (swapi)</tspan>
+		</text>
+	</g>
+	<g id="box4478" transform="translate(801,53)" onmousedown="handleBoxMdn(event,4478)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKMLibraryLictype</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,116L0.0,116L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">Apache 2.0 (apch2)</tspan>
+			<tspan x="4" y="48" class="bivec">BSD 2-clause (bsd2)</tspan>
+			<tspan x="4" y="60" class="bivec">BSD 3-clause (bsd3)</tspan>
+			<tspan x="4" y="72" class="bivec">GNU general public (gpl)</tspan>
+			<tspan x="4" y="84" class="bivec">GNU lesser general public (lgpl)</tspan>
+			<tspan x="4" y="96" class="bivec">MIT (mit)</tspan>
+			<tspan x="4" y="108" class="bivec">zlib/libpng (zlib)</tspan>
+		</text>
+	</g>
+	<g id="box4479" transform="translate(1300,45)" onmousedown="handleBoxMdn(event,4479)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKMMachinePkgmgr</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,80L0.0,80L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">advanced package manager (apt)</tspan>
+			<tspan x="4" y="48" class="bivec">BitBake (bb)</tspan>
+			<tspan x="4" y="60" class="bivec">Homebrew (brew)</tspan>
+			<tspan x="4" y="72" class="bivec">yum (yum)</tspan>
+		</text>
+	</g>
+	<g id="box4480" transform="translate(298,368)" onmousedown="handleBoxMdn(event,4480)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKMReleaseOption</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,68L0.0,68L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">link static libraries only (linkstat)</tspan>
+			<tspan x="4" y="48" class="bivec">generate dynamic link library (dynlib)</tspan>
+			<tspan x="4" y="60" class="bivec">strip debug symbols (stripdbg)</tspan>
+		</text>
+	</g>
+	<g id="box4481" transform="translate(502,542)" onmousedown="handleBoxMdn(event,4481)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKAMLibraryMakefileTag</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,68L0.0,68L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">include path (incpath)</tspan>
+			<tspan x="4" y="48" class="bivec">library path (libpath)</tspan>
+			<tspan x="4" y="60" class="bivec">link libraries (libs)</tspan>
+		</text>
+	</g>
+	<g id="box4482" transform="translate(1301,171)" onmousedown="handleBoxMdn(event,4482)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKAMMachineMakefileTag</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,176L0.0,176L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">C++ compiler (cpp)</tspan>
+			<tspan x="4" y="48" class="bivec">C++ compiler flags (cppflags)</tspan>
+			<tspan x="4" y="60" class="bivec">static library tool (statlib)</tspan>
+			<tspan x="4" y="72" class="bivec">static library tool flags (statlibflags)</tspan>
+			<tspan x="4" y="84" class="bivec">dynamic link library tool (dynlib)</tspan>
+			<tspan x="4" y="96" class="bivec">dynamic link library tool flags (dynlibflags)</tspan>
+			<tspan x="4" y="108" class="bivec">dynamic link library file extension (dynlibext)</tspan>
+			<tspan x="4" y="120" class="bivec">linker (link)</tspan>
+			<tspan x="4" y="132" class="bivec">linker flags (linkflags)</tspan>
+			<tspan x="4" y="144" class="bivec">include path (incpath)</tspan>
+			<tspan x="4" y="156" class="bivec">library path (libpath)</tspan>
+			<tspan x="4" y="168" class="bivec">link libraries (libs)</tspan>
+		</text>
+	</g>
+	<g id="box4483" transform="translate(897,215)" onmousedown="handleBoxMdn(event,4483)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">KlstWznmKAMMachineParKey</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,380L0.0,380L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">runtime root directory (whizroot)</tspan>
+			<tspan x="4" y="48" class="bivec">archive root directory (acvroot)</tspan>
+			<tspan x="4" y="60" class="bivec">binary root directory (binroot)</tspan>
+			<tspan x="4" y="72" class="bivec">monitoring root directory (monroot)</tspan>
+			<tspan x="4" y="84" class="bivec">temporary data root directory (tmproot)</tspan>
+			<tspan x="4" y="96" class="bivec">web server root directory (webroot)</tspan>
+			<tspan x="4" y="108" class="bivec">default operation engine server port (opengsrvport)</tspan>
+			<tspan x="4" y="120" class="bivec">default enginer server port base (engsrvportbase)</tspan>
+			<tspan x="4" y="132" class="bivec">default application server port (appsrvport)</tspan>
+			<tspan x="4" y="144" class="bivec">database IP address (dbsip)</tspan>
+			<tspan x="4" y="156" class="bivec">database user name (dbsusername)</tspan>
+			<tspan x="4" y="168" class="bivec">database password (dbspassword)</tspan>
+			<tspan x="4" y="180" class="bivec">MariaDB server port (marport)</tspan>
+			<tspan x="4" y="192" class="bivec">MySQL server port (myport)</tspan>
+			<tspan x="4" y="204" class="bivec">PostgreSQL server port (pgport)</tspan>
+			<tspan x="4" y="216" class="bivec">SDK root directory (whizsdkroot)</tspan>
+			<tspan x="4" y="228" class="bivec">number of cores, also for runtime (ncore)</tspan>
+			<tspan x="4" y="240" class="bivec">WhizniumSBE core library configuration (sbeconfig)</tspan>
+			<tspan x="4" y="252" class="bivec">build root directory (buildroot)</tspan>
+			<tspan x="4" y="264" class="bivec">library root directory (libroot)</tspan>
+			<tspan x="4" y="276" class="bivec">DDS home directory (nddshome)</tspan>
+			<tspan x="4" y="288" class="bivec">root file system path (sysroot)</tspan>
+			<tspan x="4" y="300" class="bivec">tool chain executable directory (tchroot)</tspan>
+			<tspan x="4" y="312" class="bivec">OPC UA SDK root directory (uasdkroot)</tspan>
+			<tspan x="4" y="324" class="bivec">development root directory (whizdevroot)</tspan>
+			<tspan x="4" y="336" class="bivec">repository root directory (reproot)</tspan>
+			<tspan x="4" y="348" class="bivec">FPGA root directory (fpgaroot)</tspan>
+			<tspan x="4" y="360" class="bivec">Java root directory (javaroot)</tspan>
+			<tspan x="4" y="372" class="bivec">MCU root directory (mcuroot)</tspan>
+		</text>
+	</g>
+</svg>
