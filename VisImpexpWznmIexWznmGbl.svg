@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns="http://www.w3.org/2000/svg" height="6400" viewBox="0 0 1600 6400" width="1600">
+	<script>
+		function handleKdn(event) {return parent.window.handleKdn(event)};
+
+		function handleBoxMdn(event,jnum) {return parent.window.handleBoxMdn(document,event,jnum)};
+		function handleBoxMove(event,jnum) {return parent.window.handleBoxMove(document,event,jnum)};
+		function handleBoxMup(event,jnum) {return parent.window.handleBoxMup(document,jnum)};
+
+		function handleRowMov(event,jnum,jnumBox) {return parent.window.handleRowMov(event,jnum,jnumBox)};
+		function handleRowMou(jnum,jnumBox) {return parent.window.handleRowMou(jnum,jnumBox)};
+		function handleRowClick(event,jnum,jnumBox,num) {return parent.window.handleRowClick(event,jnum,jnumBox,num)};
+
+		document.onkeydown = handleKdn;
+	</script>
+	<style>
+		<!-- require inline CSS for standalone view and export to .pdf -->
+		g {
+			cursor:pointer;
+		}
+		.box {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #3F3F3F);
+		}
+		.boxlite {
+			stroke:#7F7F7F;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #BFBFBF);
+		}
+		.link {
+			stroke:#000000;
+			stroke-width:0.5px;
+		}
+		.linklite {
+			stroke:#7F7F7F;
+			stroke-width:0.5px;
+		}
+		.icon {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1px;
+			cursor:pointer;
+		}
+		.icon:hover {
+			stroke:#FF7F00;
+		}
+		.bihdr {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#000000;
+			text-anchor:middle;
+		}
+		.bihdrlite {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#7F7F7F;
+			text-anchor:middle;
+		}
+		.bi {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#000000;
+		}
+		.bifil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.bitbl {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.biretr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+		.bivec {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#7F7F7F;
+		}
+		.biaffil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.bipref {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.biinc {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#00FFFF;
+		}
+		.bijovr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.biaxis {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.bityp {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+	</style>
+	<line id="lnk2536" x1="185" y1="111" x2="265" y2="81" class="link"/>
+	<line id="lnk2537" x1="185" y1="384" x2="265" y2="250" class="link"/>
+	<line id="lnk2538" x1="185" y1="384" x2="265" y2="468" class="link"/>
+	<line id="lnk2539" x1="435" y1="468" x2="515" y2="453" class="link"/>
+	<line id="lnk2540" x1="185" y1="874" x2="265" y2="636" class="link"/>
+	<line id="lnk2541" x1="185" y1="874" x2="265" y2="911" class="link"/>
+	<line id="lnk2542" x1="435" y1="911" x2="515" y2="898" class="link"/>
+	<line id="lnk2543" x1="185" y1="1231" x2="265" y2="1224" class="link"/>
+	<g id="box3697" transform="translate(15,29)" onmousedown="handleBoxMdn(event,3697)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,1,3697,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,1,3697,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIMError</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,3,3697)" onmouseout="handleRowMou(3,3697)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* verRefWznmMVersion</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,4,3697)" onmouseout="handleRowMou(4,3697)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bitbl">* verNum</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,5,3697)" onmouseout="handleRowMou(5,3697)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,6,3697)" onmouseout="handleRowMou(6,3697)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bitbl">* refJTitle</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,7,3697)" onmouseout="handleRowMou(7,3697)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bifil">* Title (tit)</tspan>
+		</text>
+	</g>
+	<g id="box3698" transform="translate(265,15)" onmousedown="handleBoxMdn(event,3698)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,8,3698,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIJMErrorTitle</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,10,3698)" onmouseout="handleRowMou(10,3698)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* refWznmMError</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,100L0.0,100L0.0,66z" class="box" onmousemove="handleRowMov(event,11,3698)" onmouseout="handleRowMou(11,3698)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bifil">srefX1RefWznmMLocale (loc)</tspan>
+			<tspan x="4" y="92" class="bi">* x1RefWznmMLocale</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,12,3698)" onmouseout="handleRowMou(12,3698)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bifil">* Title (tit)</tspan>
+		</text>
+	</g>
+	<g id="box3699" transform="translate(15,263)" onmousedown="handleBoxMdn(event,3699)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,13,3699,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,13,3699,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIMVector</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,78L0.0,78L0.0,44z" class="box" onmousemove="handleRowMov(event,15,3699)" onmouseout="handleRowMou(15,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bifil">srefIxVBasetype (typ)</tspan>
+			<tspan x="4" y="70" class="bi">* ixVBasetype</tspan>
+		</text>
+		<path d="M0.0,78L170,78L170,100L0.0,100L0.0,78z" class="box" onmousemove="handleRowMov(event,16,3699)" onmouseout="handleRowMou(16,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="92" class="bitbl">* refWznmMVersion</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,17,3699)" onmouseout="handleRowMou(17,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bitbl">* hkIxVTbl</tspan>
+		</text>
+		<path d="M0.0,122L170,122L170,144L0.0,144L0.0,122z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="136" class="bi">* hkUref</tspan>
+		</text>
+		<path d="M0.0,144L170,144L170,166L0.0,166L0.0,144z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="158" class="bi">* refWznmMPreset</tspan>
+		</text>
+		<path d="M0.0,166L170,166L170,188L0.0,188L0.0,166z" class="box" onmousemove="handleRowMov(event,20,3699)" onmouseout="handleRowMou(20,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="180" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,188L170,188L170,210L0.0,210L0.0,188z" class="box" onmousemove="handleRowMov(event,21,3699)" onmouseout="handleRowMou(21,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="202" class="bifil">* osrefWznmKTaggrp (tgr)</tspan>
+		</text>
+		<path d="M0.0,210L170,210L170,232L0.0,232L0.0,210z" class="box" onmousemove="handleRowMov(event,22,3699)" onmouseout="handleRowMou(22,3699)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="224" class="bifil">* srefsKOption (opt)</tspan>
+		</text>
+	</g>
+	<g id="box3700" transform="translate(265,167)" onmousedown="handleBoxMdn(event,3700)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,23,3700,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIAMVectorTitle</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,25,3700)" onmouseout="handleRowMou(25,3700)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* refWznmMVector</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,100L0.0,100L0.0,66z" class="box" onmousemove="handleRowMov(event,26,3700)" onmouseout="handleRowMou(26,3700)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bifil">srefX1IxVType (typ)</tspan>
+			<tspan x="4" y="92" class="bi">* x1IxVType</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,134L0.0,134L0.0,100z" class="box" onmousemove="handleRowMov(event,27,3700)" onmouseout="handleRowMou(27,3700)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bifil">srefX2RefWznmMLocale (loc)</tspan>
+			<tspan x="4" y="126" class="bi">* x2RefWznmMLocale</tspan>
+		</text>
+		<path d="M0.0,134L170,134L170,156L0.0,156L0.0,134z" class="box" onmousemove="handleRowMov(event,28,3700)" onmouseout="handleRowMou(28,3700)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="148" class="bifil">* Title (tit)</tspan>
+		</text>
+	</g>
+	<g id="box3701" transform="translate(265,353)" onmousedown="handleBoxMdn(event,3701)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,29,3701,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,29,3701,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIMVectoritem</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,31,3701)" onmouseout="handleRowMou(31,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* vecRefWznmMVector</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,32,3701)" onmouseout="handleRowMou(32,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bitbl">* vecNum</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,33,3701)" onmouseout="handleRowMou(33,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,34,3701)" onmouseout="handleRowMou(34,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bifil">* Avail (avl)</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,154L0.0,154L0.0,132z" class="box" onmousemove="handleRowMov(event,35,3701)" onmouseout="handleRowMou(35,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bifil">* Implied (imp)</tspan>
+		</text>
+		<path d="M0.0,154L170,154L170,176L0.0,176L0.0,154z" class="box" onmousemove="handleRowMov(event,36,3701)" onmouseout="handleRowMou(36,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="168" class="bitbl">* refJ</tspan>
+		</text>
+		<path d="M0.0,176L170,176L170,198L0.0,198L0.0,176z" class="box" onmousemove="handleRowMov(event,37,3701)" onmouseout="handleRowMou(37,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="190" class="bifil">* Title (tit)</tspan>
+		</text>
+		<path d="M0.0,198L170,198L170,220L0.0,220L0.0,198z" class="box" onmousemove="handleRowMov(event,38,3701)" onmouseout="handleRowMou(38,3701)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="212" class="bifil">* Comment (cmt)</tspan>
+		</text>
+	</g>
+	<g id="box3702" transform="translate(515,376)" onmousedown="handleBoxMdn(event,3702)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,39,3702,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIJMVectoritem</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,41,3702)" onmouseout="handleRowMou(41,3702)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* refWznmMVectoritem</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,100L0.0,100L0.0,66z" class="box" onmousemove="handleRowMov(event,42,3702)" onmouseout="handleRowMou(42,3702)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bifil">srefX1RefWznmMLocale (loc)</tspan>
+			<tspan x="4" y="92" class="bi">* x1RefWznmMLocale</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,43,3702)" onmouseout="handleRowMou(43,3702)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bifil">* Title (tit)</tspan>
+		</text>
+		<path d="M0.0,122L170,122L170,144L0.0,144L0.0,122z" class="box" onmousemove="handleRowMov(event,44,3702)" onmouseout="handleRowMou(44,3702)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="136" class="bifil">* Comment (cmt)</tspan>
+		</text>
+	</g>
+	<g id="box3703" transform="translate(15,747)" onmousedown="handleBoxMdn(event,3703)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,45,3703,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,45,3703,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIMBlock</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,47,3703)" onmouseout="handleRowMou(47,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* ixVBasetype</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,48,3703)" onmouseout="handleRowMou(48,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bitbl">* refWznmMVersion</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,49,3703)" onmouseout="handleRowMou(49,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bitbl">* refIxVTbl</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bi">* refUref</tspan>
+		</text>
+		<path d="M0.0,132L170,132L170,166L0.0,166L0.0,132z" class="box" onmousemove="handleRowMov(event,51,3703)" onmouseout="handleRowMou(51,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="146" class="bifil">srefsReaIxWznmWScope (rsc)</tspan>
+			<tspan x="4" y="158" class="bi">* reaIxWznmWScope</tspan>
+		</text>
+		<path d="M0.0,166L170,166L170,200L0.0,200L0.0,166z" class="box" onmousemove="handleRowMov(event,52,3703)" onmouseout="handleRowMou(52,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="180" class="bifil">srefsWriIxWznmWScope (wsc)</tspan>
+			<tspan x="4" y="192" class="bi">* wriIxWznmWScope</tspan>
+		</text>
+		<path d="M0.0,200L170,200L170,222L0.0,222L0.0,200z" class="box" onmousemove="handleRowMov(event,53,3703)" onmouseout="handleRowMou(53,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="214" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,222L170,222L170,244L0.0,244L0.0,222z" class="box" onmousemove="handleRowMov(event,54,3703)" onmouseout="handleRowMou(54,3703)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="236" class="bifil">* Comment (cmt)</tspan>
+		</text>
+	</g>
+	<g id="box3704" transform="translate(265,603)" onmousedown="handleBoxMdn(event,3704)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,55,3704,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeICAMBlockItem</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,56L0.0,56L0.0,22z" class="box" onmousemove="handleRowMov(event,56,3704)" onmouseout="handleRowMou(56,3704)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bifil">iref (irf)</tspan>
+			<tspan x="4" y="48" class="bi">* ref</tspan>
+		</text>
+	</g>
+	<g id="box3705" transform="translate(265,689)" onmousedown="handleBoxMdn(event,3705)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,57,3705,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,57,3705,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIAMBlockItem</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,78L0.0,78L0.0,44z" class="box" onmousemove="handleRowMov(event,59,3705)" onmouseout="handleRowMou(59,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bifil">irefRefWznmCAMBlockItem (clu)</tspan>
+			<tspan x="4" y="70" class="bi">* refWznmCAMBlockItem</tspan>
+		</text>
+		<path d="M0.0,78L170,78L170,100L0.0,100L0.0,78z" class="box" onmousemove="handleRowMov(event,60,3705)" onmouseout="handleRowMou(60,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="92" class="bitbl">* blkRefWznmMBlock</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,61,3705)" onmouseout="handleRowMou(61,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bitbl">* blkNum</tspan>
+		</text>
+		<path d="M0.0,122L170,122L170,156L0.0,156L0.0,122z" class="box" onmousemove="handleRowMov(event,62,3705)" onmouseout="handleRowMou(62,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="136" class="bifil">srefIxVBasetype (typ)</tspan>
+			<tspan x="4" y="148" class="bi">* ixVBasetype</tspan>
+		</text>
+		<path d="M0.0,156L170,156L170,178L0.0,178L0.0,156z" class="box" onmousemove="handleRowMov(event,63,3705)" onmouseout="handleRowMou(63,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="170" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,178L170,178L170,212L0.0,212L0.0,178z" class="box" onmousemove="handleRowMov(event,64,3705)" onmouseout="handleRowMou(64,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="192" class="bifil">srefIxWznmVVartype (vty)</tspan>
+			<tspan x="4" y="204" class="bi">* ixWznmVVartype</tspan>
+		</text>
+		<path d="M0.0,212L170,212L170,234L0.0,234L0.0,212z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="226" class="bi">* refWznmMControl</tspan>
+		</text>
+		<path d="M0.0,234L170,234L170,268L0.0,268L0.0,234z" class="box" onmousemove="handleRowMov(event,66,3705)" onmouseout="handleRowMou(66,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="248" class="bifil">srefRefWznmMVector (vec)</tspan>
+			<tspan x="4" y="260" class="bi">* refWznmMVector</tspan>
+		</text>
+		<path d="M0.0,268L170,268L170,290L0.0,290L0.0,268z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="282" class="bi">* refWznmMFeed</tspan>
+		</text>
+		<path d="M0.0,290L170,290L170,312L0.0,312L0.0,290z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="304" class="bi">* refWznmMTable</tspan>
+		</text>
+		<path d="M0.0,312L170,312L170,334L0.0,334L0.0,312z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="326" class="bi">* refWznmMBlock</tspan>
+		</text>
+		<path d="M0.0,334L170,334L170,356L0.0,356L0.0,334z" class="box" onmousemove="handleRowMov(event,70,3705)" onmouseout="handleRowMou(70,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="348" class="bitbl">* refJ</tspan>
+		</text>
+		<path d="M0.0,356L170,356L170,378L0.0,378L0.0,356z" class="box" onmousemove="handleRowMov(event,71,3705)" onmouseout="handleRowMou(71,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="370" class="bifil">* Defval (dfv)</tspan>
+		</text>
+		<path d="M0.0,378L170,378L170,412L0.0,412L0.0,378z" class="box" onmousemove="handleRowMov(event,72,3705)" onmouseout="handleRowMou(72,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="392" class="bifil">srefRefWznmMVectoritem (vit)</tspan>
+			<tspan x="4" y="404" class="bi">* refWznmMVectoritem</tspan>
+		</text>
+		<path d="M0.0,412L170,412L170,434L0.0,434L0.0,412z" class="box" onmousemove="handleRowMov(event,73,3705)" onmouseout="handleRowMou(73,3705)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="426" class="bifil">* Comment (cmt)</tspan>
+		</text>
+	</g>
+	<g id="box3706" transform="translate(515,815)" onmousedown="handleBoxMdn(event,3706)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,74,3706,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIJAMBlockItem</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,76,3706)" onmouseout="handleRowMou(76,3706)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* refWznmAMBlockItem</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,100L0.0,100L0.0,66z" class="box" onmousemove="handleRowMov(event,77,3706)" onmouseout="handleRowMou(77,3706)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bifil">srefX1RefWznmMRelease (rls)</tspan>
+			<tspan x="4" y="92" class="bi">* x1RefWznmMRelease</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,78,3706)" onmouseout="handleRowMou(78,3706)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bifil">* Defval (dfv)</tspan>
+		</text>
+		<path d="M0.0,122L170,122L170,156L0.0,156L0.0,122z" class="box" onmousemove="handleRowMov(event,79,3706)" onmouseout="handleRowMou(79,3706)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="136" class="bifil">srefRefWznmMVectoritem (vit)</tspan>
+			<tspan x="4" y="148" class="bi">* refWznmMVectoritem</tspan>
+		</text>
+	</g>
+	<g id="box3707" transform="translate(15,1143)" onmousedown="handleBoxMdn(event,3707)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,80,3707,1)"/>
+		<path d="M3.5,3L18.5,3M3.5,18L18.5,18M7.5,6L13.5,6L13.5,12L7.5,12L7.5,6M15.5,9L18.5,9L18.5,15L12.5,15L12.5,14M4.5,6L5.5,6M4.5,9L5.5,9M4.5,12L5.5,12M4.5,15L10.5,15" class="icon" onclick="handleRowClick(event,80,3707,2)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIMCapability</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,82,3707)" onmouseout="handleRowMou(82,3707)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* refWznmMVersion</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,100L0.0,100L0.0,66z" class="box" onmousemove="handleRowMov(event,83,3707)" onmouseout="handleRowMou(83,3707)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bifil">srefTplRefWznmMCapability (tpl)</tspan>
+			<tspan x="4" y="92" class="bi">* tplRefWznmMCapability</tspan>
+		</text>
+		<path d="M0.0,100L170,100L170,122L0.0,122L0.0,100z" class="box" onmousemove="handleRowMov(event,84,3707)" onmouseout="handleRowMou(84,3707)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="114" class="bifil">* sref (srf)</tspan>
+		</text>
+		<path d="M0.0,122L170,122L170,144L0.0,144L0.0,122z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="136" class="bi">* ixWArtefact</tspan>
+		</text>
+		<path d="M0.0,144L170,144L170,166L0.0,166L0.0,144z" class="box" onmousemove="handleRowMov(event,86,3707)" onmouseout="handleRowMou(86,3707)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="158" class="bifil">* Title (tit)</tspan>
+		</text>
+	</g>
+	<g id="box3708" transform="translate(265,1153)" onmousedown="handleBoxMdn(event,3708)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="box"/>
+		<path d="M150.5,3L165.5,3M150.5,18L165.5,18M154.5,6L160.5,6L160.5,12L154.5,12L154.5,6M162.5,9L165.5,9L165.5,15L159.5,15L159.5,14" class="icon" onclick="handleRowClick(event,87,3708,1)"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdr">ImeIAMCapabilityPar</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="box"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bi">* ref</tspan>
+		</text>
+		<path d="M0.0,44L170,44L170,66L0.0,66L0.0,44z" class="box" onmousemove="handleRowMov(event,89,3708)" onmouseout="handleRowMou(89,3708)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="58" class="bitbl">* cpbRefWznmMCapability</tspan>
+		</text>
+		<path d="M0.0,66L170,66L170,88L0.0,88L0.0,66z" class="box" onmousemove="handleRowMov(event,90,3708)" onmouseout="handleRowMou(90,3708)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="80" class="bitbl">* cpbNum</tspan>
+		</text>
+		<path d="M0.0,88L170,88L170,110L0.0,110L0.0,88z" class="box" onmousemove="handleRowMov(event,91,3708)" onmouseout="handleRowMou(91,3708)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="102" class="bifil">* x1SrefKKey (key)</tspan>
+		</text>
+		<path d="M0.0,110L170,110L170,132L0.0,132L0.0,110z" class="box" onmousemove="handleRowMov(event,92,3708)" onmouseout="handleRowMou(92,3708)"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="124" class="bifil">* Val (val)</tspan>
+		</text>
+	</g>
+</svg>

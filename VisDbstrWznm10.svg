@@ -1,0 +1,1272 @@
+<?xml version="1.0"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns="http://www.w3.org/2000/svg" height="6400" viewBox="0 0 1600 6400" width="1600">
+	<script>
+		function handleKdn(event) {return parent.window.handleKdn(event)};
+
+		function handleBoxMdn(event,jnum) {return parent.window.handleBoxMdn(document,event,jnum)};
+		function handleBoxMove(event,jnum) {return parent.window.handleBoxMove(document,event,jnum)};
+		function handleBoxMup(event,jnum) {return parent.window.handleBoxMup(document,jnum)};
+
+		function handleRowMov(event,jnum,jnumBox) {return parent.window.handleRowMov(event,jnum,jnumBox)};
+		function handleRowMou(jnum,jnumBox) {return parent.window.handleRowMou(jnum,jnumBox)};
+		function handleRowClick(event,jnum,jnumBox,num) {return parent.window.handleRowClick(event,jnum,jnumBox,num)};
+
+		document.onkeydown = handleKdn;
+	</script>
+	<style>
+		<!-- require inline CSS for standalone view and export to .pdf -->
+		g {
+			cursor:pointer;
+		}
+		.box {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #3F3F3F);
+		}
+		.boxlite {
+			stroke:#7F7F7F;
+			fill:#FFFFFF;
+			stroke-width:1.333px;
+			filter:drop-shadow(5px 5px 4px #BFBFBF);
+		}
+		.link {
+			stroke:#000000;
+			stroke-width:0.5px;
+		}
+		.linklite {
+			stroke:#7F7F7F;
+			stroke-width:0.5px;
+		}
+		.icon {
+			stroke:#000000;
+			fill:#FFFFFF;
+			stroke-width:1px;
+			cursor:pointer;
+		}
+		.icon:hover {
+			stroke:#FF7F00;
+		}
+		.bihdr {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#000000;
+			text-anchor:middle;
+		}
+		.bihdrlite {
+			font-family:Helvetica,sans-serif;
+			font-size:11px;
+			font-weight:bold;
+			fill:#7F7F7F;
+			text-anchor:middle;
+		}
+		.bi {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#000000;
+		}
+		.bifil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.bitbl {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.biretr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+		.bivec {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#7F7F7F;
+		}
+		.biaffil {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#0000FF;
+		}
+		.bipref {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007FFF;
+		}
+		.biinc {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#00FFFF;
+		}
+		.bijovr {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.biaxis {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#007F00;
+		}
+		.bityp {
+			font-family:Helvetica,sans-serif;
+			font-size:9px;
+			fill:#FF7F00;
+		}
+	</style>
+	<g id="box4504" transform="translate(15,15)" onmousedown="handleBoxMdn(event,4504)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVCard</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,656L0.0,656L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">user groups (CrdWznmUsg)</tspan>
+			<tspan x="4" y="48" class="bivec">users (CrdWznmUsr)</tspan>
+			<tspan x="4" y="60" class="bivec">persons (CrdWznmPrs)</tspan>
+			<tspan x="4" y="72" class="bivec">files (CrdWznmFil)</tspan>
+			<tspan x="4" y="84" class="bivec">CrdWznmNav</tspan>
+			<tspan x="4" y="96" class="bivec">locales (CrdWznmLoc)</tspan>
+			<tspan x="4" y="108" class="bivec">tags (CrdWznmTag)</tspan>
+			<tspan x="4" y="120" class="bivec">capability templates (CrdWznmCtp)</tspan>
+			<tspan x="4" y="132" class="bivec">machines (CrdWznmMch)</tspan>
+			<tspan x="4" y="144" class="bivec">libraries (CrdWznmLib)</tspan>
+			<tspan x="4" y="156" class="bivec">projects (CrdWznmPrj)</tspan>
+			<tspan x="4" y="168" class="bivec">versions (CrdWznmVer)</tspan>
+			<tspan x="4" y="180" class="bivec">capabilities (CrdWznmCap)</tspan>
+			<tspan x="4" y="192" class="bivec">errors (CrdWznmErr)</tspan>
+			<tspan x="4" y="204" class="bivec">tables (CrdWznmTbl)</tspan>
+			<tspan x="4" y="216" class="bivec">table columns (CrdWznmTco)</tspan>
+			<tspan x="4" y="228" class="bivec">subsets (CrdWznmSbs)</tspan>
+			<tspan x="4" y="240" class="bivec">relations (CrdWznmRel)</tspan>
+			<tspan x="4" y="252" class="bivec">vectors (CrdWznmVec)</tspan>
+			<tspan x="4" y="264" class="bivec">vector items (CrdWznmVit)</tspan>
+			<tspan x="4" y="276" class="bivec">feature checks (CrdWznmChk)</tspan>
+			<tspan x="4" y="288" class="bivec">stubs (CrdWznmStb)</tspan>
+			<tspan x="4" y="300" class="bivec">import/export complexes (CrdWznmIex)</tspan>
+			<tspan x="4" y="312" class="bivec">import/exports (CrdWznmIme)</tspan>
+			<tspan x="4" y="324" class="bivec">import/export columns (CrdWznmIel)</tspan>
+			<tspan x="4" y="336" class="bivec">presettings (CrdWznmPst)</tspan>
+			<tspan x="4" y="348" class="bivec">modules (CrdWznmMdl)</tspan>
+			<tspan x="4" y="360" class="bivec">cards (CrdWznmCar)</tspan>
+			<tspan x="4" y="372" class="bivec">dialogs (CrdWznmDlg)</tspan>
+			<tspan x="4" y="384" class="bivec">panels (CrdWznmPnl)</tspan>
+			<tspan x="4" y="396" class="bivec">queries (CrdWznmQry)</tspan>
+			<tspan x="4" y="408" class="bivec">query columns (CrdWznmQco)</tspan>
+			<tspan x="4" y="420" class="bivec">query modifiers (CrdWznmQmd)</tspan>
+			<tspan x="4" y="432" class="bivec">controls (CrdWznmCon)</tspan>
+			<tspan x="4" y="444" class="bivec">operation packs (CrdWznmOpk)</tspan>
+			<tspan x="4" y="456" class="bivec">operations (CrdWznmOpx)</tspan>
+			<tspan x="4" y="468" class="bivec">jobs (CrdWznmJob)</tspan>
+			<tspan x="4" y="480" class="bivec">stages (CrdWznmSge)</tspan>
+			<tspan x="4" y="492" class="bivec">methods (CrdWznmMtd)</tspan>
+			<tspan x="4" y="504" class="bivec">blocks (CrdWznmBlk)</tspan>
+			<tspan x="4" y="516" class="bivec">calls (CrdWznmCal)</tspan>
+			<tspan x="4" y="528" class="bivec">components (CrdWznmCmp)</tspan>
+			<tspan x="4" y="540" class="bivec">releases (CrdWznmRls)</tspan>
+			<tspan x="4" y="552" class="bivec">visualizations (CrdWznmVis)</tspan>
+			<tspan x="4" y="564" class="bivec">sheets (CrdWznmSht)</tspan>
+			<tspan x="4" y="576" class="bivec">boxes (CrdWznmBox)</tspan>
+			<tspan x="4" y="588" class="bivec">accessor apps (CrdWznmApp)</tspan>
+			<tspan x="4" y="600" class="bivec">run-time jobs (CrdWznmRtj)</tspan>
+			<tspan x="4" y="612" class="bivec">events (CrdWznmEvt)</tspan>
+			<tspan x="4" y="624" class="bivec">sequences (CrdWznmSeq)</tspan>
+			<tspan x="4" y="636" class="bivec">states (CrdWznmSte)</tspan>
+			<tspan x="4" y="648" class="bivec">utilities (CrdWznmUtl)</tspan>
+		</text>
+	</g>
+	<g id="box4505" transform="translate(215,15)" onmousedown="handleBoxMdn(event,4505)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVControl</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,6752L0.0,6752L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">PnlWznmUsgList.TcoGrp</tspan>
+			<tspan x="4" y="48" class="bivec">PnlWznmUsgList.TcoOwn</tspan>
+			<tspan x="4" y="60" class="bivec">PnlWznmUsgList.TcoSrf</tspan>
+			<tspan x="4" y="72" class="bivec">PnlWznmUsgAAccess.TcoFeg</tspan>
+			<tspan x="4" y="84" class="bivec">PnlWznmUsgAAccess.TcoFea</tspan>
+			<tspan x="4" y="96" class="bivec">PnlWznmUsgAAccess.TcoAcc</tspan>
+			<tspan x="4" y="108" class="bivec">PnlWznmUsgMNUser.TcoMref</tspan>
+			<tspan x="4" y="120" class="bivec">PnlWznmUsgMNUser.TcoUlv</tspan>
+			<tspan x="4" y="132" class="bivec">PnlWznmUsrList.TcoGrp</tspan>
+			<tspan x="4" y="144" class="bivec">PnlWznmUsrList.TcoOwn</tspan>
+			<tspan x="4" y="156" class="bivec">PnlWznmUsrList.TcoPrs</tspan>
+			<tspan x="4" y="168" class="bivec">PnlWznmUsrList.TcoSrf</tspan>
+			<tspan x="4" y="180" class="bivec">PnlWznmUsrList.TcoUsg</tspan>
+			<tspan x="4" y="192" class="bivec">PnlWznmUsrList.TcoSte</tspan>
+			<tspan x="4" y="204" class="bivec">PnlWznmUsrList.TcoLcl</tspan>
+			<tspan x="4" y="216" class="bivec">PnlWznmUsrList.TcoUlv</tspan>
+			<tspan x="4" y="228" class="bivec">PnlWznmUsrAAccess.TcoFeg</tspan>
+			<tspan x="4" y="240" class="bivec">PnlWznmUsrAAccess.TcoFea</tspan>
+			<tspan x="4" y="252" class="bivec">PnlWznmUsrAAccess.TcoAcc</tspan>
+			<tspan x="4" y="264" class="bivec">PnlWznmUsr1NSession.TcoRef</tspan>
+			<tspan x="4" y="276" class="bivec">PnlWznmUsrMNUsergroup.TcoMref</tspan>
+			<tspan x="4" y="288" class="bivec">PnlWznmUsrMNUsergroup.TcoUlv</tspan>
+			<tspan x="4" y="300" class="bivec">PnlWznmPrsList.TcoGrp</tspan>
+			<tspan x="4" y="312" class="bivec">PnlWznmPrsList.TcoOwn</tspan>
+			<tspan x="4" y="324" class="bivec">PnlWznmPrsList.TcoTit</tspan>
+			<tspan x="4" y="336" class="bivec">PnlWznmPrsList.TcoFnm</tspan>
+			<tspan x="4" y="348" class="bivec">PnlWznmPrsList.TcoLnm</tspan>
+			<tspan x="4" y="360" class="bivec">PnlWznmPrsList.TcoSex</tspan>
+			<tspan x="4" y="372" class="bivec">PnlWznmPrsList.TcoTel</tspan>
+			<tspan x="4" y="384" class="bivec">PnlWznmPrsList.TcoEml</tspan>
+			<tspan x="4" y="396" class="bivec">PnlWznmPrsADetail.TcoTyp</tspan>
+			<tspan x="4" y="408" class="bivec">PnlWznmPrsADetail.TcoVal</tspan>
+			<tspan x="4" y="420" class="bivec">PnlWznmPrsMNProject.TcoMref</tspan>
+			<tspan x="4" y="432" class="bivec">PnlWznmPrsMNProject.TcoSta</tspan>
+			<tspan x="4" y="444" class="bivec">PnlWznmPrsMNProject.TcoSto</tspan>
+			<tspan x="4" y="456" class="bivec">PnlWznmPrsMNProject.TcoFct</tspan>
+			<tspan x="4" y="468" class="bivec">PnlWznmFilList.TcoGrp</tspan>
+			<tspan x="4" y="480" class="bivec">PnlWznmFilList.TcoOwn</tspan>
+			<tspan x="4" y="492" class="bivec">PnlWznmFilList.TcoFnm</tspan>
+			<tspan x="4" y="504" class="bivec">PnlWznmFilList.TcoRet</tspan>
+			<tspan x="4" y="516" class="bivec">PnlWznmFilList.TcoReu</tspan>
+			<tspan x="4" y="528" class="bivec">PnlWznmFilList.TcoCnt</tspan>
+			<tspan x="4" y="540" class="bivec">PnlWznmFilList.TcoMim</tspan>
+			<tspan x="4" y="552" class="bivec">PnlWznmFilList.TcoSiz</tspan>
+			<tspan x="4" y="564" class="bivec">PnlWznmLocList.TcoSrf</tspan>
+			<tspan x="4" y="576" class="bivec">PnlWznmLocList.TcoTit</tspan>
+			<tspan x="4" y="588" class="bivec">PnlWznmLocMNVersion.TcoMref</tspan>
+			<tspan x="4" y="600" class="bivec">PnlWznmTagList.TcoSrf</tspan>
+			<tspan x="4" y="612" class="bivec">PnlWznmTagList.TcoTit</tspan>
+			<tspan x="4" y="624" class="bivec">PnlWznmTagList.TcoCpb</tspan>
+			<tspan x="4" y="636" class="bivec">PnlWznmTagList.TcoGrp</tspan>
+			<tspan x="4" y="648" class="bivec">PnlWznmCtpList.TcoSrf</tspan>
+			<tspan x="4" y="660" class="bivec">PnlWznmCtpList.TcoTit</tspan>
+			<tspan x="4" y="672" class="bivec">PnlWznmCtpList.TcoVer</tspan>
+			<tspan x="4" y="684" class="bivec">PnlWznmCtpList.TcoAtf</tspan>
+			<tspan x="4" y="696" class="bivec">PnlWznmCtpKParKey.TcoFix</tspan>
+			<tspan x="4" y="708" class="bivec">PnlWznmCtpKParKey.TcoSrf</tspan>
+			<tspan x="4" y="720" class="bivec">PnlWznmCtpKParKey.TcoAvl</tspan>
+			<tspan x="4" y="732" class="bivec">PnlWznmCtpKParKey.TcoImp</tspan>
+			<tspan x="4" y="744" class="bivec">PnlWznmCtpKParKey.TcoTit</tspan>
+			<tspan x="4" y="756" class="bivec">PnlWznmCtpKParKey.TcoCmt</tspan>
+			<tspan x="4" y="768" class="bivec">PnlWznmCtpKKey.TcoFix</tspan>
+			<tspan x="4" y="780" class="bivec">PnlWznmCtpKKey.TcoSrf</tspan>
+			<tspan x="4" y="792" class="bivec">PnlWznmCtpKKey.TcoAvl</tspan>
+			<tspan x="4" y="804" class="bivec">PnlWznmCtpKKey.TcoImp</tspan>
+			<tspan x="4" y="816" class="bivec">PnlWznmCtpKKey.TcoTit</tspan>
+			<tspan x="4" y="828" class="bivec">PnlWznmCtpKKey.TcoCmt</tspan>
+			<tspan x="4" y="840" class="bivec">PnlWznmCtpAPar.TcoKey</tspan>
+			<tspan x="4" y="852" class="bivec">PnlWznmCtpAPar.TcoVal</tspan>
+			<tspan x="4" y="864" class="bivec">PnlWznmCtpTpl1NCapability.TcoRef</tspan>
+			<tspan x="4" y="876" class="bivec">PnlWznmCtp1NTag.TcoRef</tspan>
+			<tspan x="4" y="888" class="bivec">PnlWznmMchList.TcoSrf</tspan>
+			<tspan x="4" y="900" class="bivec">PnlWznmMchList.TcoSup</tspan>
+			<tspan x="4" y="912" class="bivec">PnlWznmMchAMakefile.TcoTag</tspan>
+			<tspan x="4" y="924" class="bivec">PnlWznmMchAMakefile.TcoVal</tspan>
+			<tspan x="4" y="936" class="bivec">PnlWznmMchAPar.TcoKey</tspan>
+			<tspan x="4" y="948" class="bivec">PnlWznmMchAPar.TcoVal</tspan>
+			<tspan x="4" y="960" class="bivec">PnlWznmMch1NRelease.TcoRef</tspan>
+			<tspan x="4" y="972" class="bivec">PnlWznmMchSup1NMachine.TcoRef</tspan>
+			<tspan x="4" y="984" class="bivec">PnlWznmLibList.TcoSrf</tspan>
+			<tspan x="4" y="996" class="bivec">PnlWznmLibList.TcoTit</tspan>
+			<tspan x="4" y="1008" class="bivec">PnlWznmLibList.TcoVer</tspan>
+			<tspan x="4" y="1020" class="bivec">PnlWznmLibList.TcoLty</tspan>
+			<tspan x="4" y="1032" class="bivec">PnlWznmLibAPkglist.TcoMch</tspan>
+			<tspan x="4" y="1044" class="bivec">PnlWznmLibAPkglist.TcoPkl</tspan>
+			<tspan x="4" y="1056" class="bivec">PnlWznmLibAMakefile.TcoMch</tspan>
+			<tspan x="4" y="1068" class="bivec">PnlWznmLibAMakefile.TcoTag</tspan>
+			<tspan x="4" y="1080" class="bivec">PnlWznmLibAMakefile.TcoVal</tspan>
+			<tspan x="4" y="1092" class="bivec">PnlWznmLibRef1NFile.TcoRef</tspan>
+			<tspan x="4" y="1104" class="bivec">PnlWznmLibMNOppack.TcoMref</tspan>
+			<tspan x="4" y="1116" class="bivec">PnlWznmLibMNComponent.TcoMref</tspan>
+			<tspan x="4" y="1128" class="bivec">PnlWznmPrjList.TcoGrp</tspan>
+			<tspan x="4" y="1140" class="bivec">PnlWznmPrjList.TcoOwn</tspan>
+			<tspan x="4" y="1152" class="bivec">PnlWznmPrjList.TcoSho</tspan>
+			<tspan x="4" y="1164" class="bivec">PnlWznmPrjList.TcoTit</tspan>
+			<tspan x="4" y="1176" class="bivec">PnlWznmPrjList.TcoVer</tspan>
+			<tspan x="4" y="1188" class="bivec">PnlWznmPrjList.TcoGrl</tspan>
+			<tspan x="4" y="1200" class="bivec">PnlWznmPrjPrj1NVersion.TcoRef</tspan>
+			<tspan x="4" y="1212" class="bivec">PnlWznmPrjMNPerson.TcoMref</tspan>
+			<tspan x="4" y="1224" class="bivec">PnlWznmPrjMNPerson.TcoSta</tspan>
+			<tspan x="4" y="1236" class="bivec">PnlWznmPrjMNPerson.TcoSto</tspan>
+			<tspan x="4" y="1248" class="bivec">PnlWznmPrjMNPerson.TcoFct</tspan>
+			<tspan x="4" y="1260" class="bivec">PnlWznmVerList.TcoGrp</tspan>
+			<tspan x="4" y="1272" class="bivec">PnlWznmVerList.TcoOwn</tspan>
+			<tspan x="4" y="1284" class="bivec">PnlWznmVerList.TcoPrj</tspan>
+			<tspan x="4" y="1296" class="bivec">PnlWznmVerList.TcoMaj</tspan>
+			<tspan x="4" y="1308" class="bivec">PnlWznmVerList.TcoMin</tspan>
+			<tspan x="4" y="1320" class="bivec">PnlWznmVerList.TcoSub</tspan>
+			<tspan x="4" y="1332" class="bivec">PnlWznmVerList.TcoBvr</tspan>
+			<tspan x="4" y="1344" class="bivec">PnlWznmVerList.TcoLoc</tspan>
+			<tspan x="4" y="1356" class="bivec">PnlWznmVerList.TcoSte</tspan>
+			<tspan x="4" y="1368" class="bivec">PnlWznmVerList.TcoDty</tspan>
+			<tspan x="4" y="1380" class="bivec">PnlWznmVerVer1NVisual.TcoRef</tspan>
+			<tspan x="4" y="1392" class="bivec">PnlWznmVerVer1NError.TcoRef</tspan>
+			<tspan x="4" y="1404" class="bivec">PnlWznmVer1NCapability.TcoRef</tspan>
+			<tspan x="4" y="1416" class="bivec">PnlWznmVer1NVector.TcoRef</tspan>
+			<tspan x="4" y="1428" class="bivec">PnlWznmVer1NTable.TcoRef</tspan>
+			<tspan x="4" y="1440" class="bivec">PnlWznmVer1NRelation.TcoRef</tspan>
+			<tspan x="4" y="1452" class="bivec">PnlWznmVer1NQuery.TcoRef</tspan>
+			<tspan x="4" y="1464" class="bivec">PnlWznmVer1NPreset.TcoRef</tspan>
+			<tspan x="4" y="1476" class="bivec">PnlWznmVerVer1NApp.TcoRef</tspan>
+			<tspan x="4" y="1488" class="bivec">PnlWznmVer1NOppack.TcoRef</tspan>
+			<tspan x="4" y="1500" class="bivec">PnlWznmVer1NJob.TcoRef</tspan>
+			<tspan x="4" y="1512" class="bivec">PnlWznmVer1NImpexpcplx.TcoRef</tspan>
+			<tspan x="4" y="1524" class="bivec">PnlWznmVerVer1NModule.TcoRef</tspan>
+			<tspan x="4" y="1536" class="bivec">PnlWznmVer1NCall.TcoRef</tspan>
+			<tspan x="4" y="1548" class="bivec">PnlWznmVer1NBlock.TcoRef</tspan>
+			<tspan x="4" y="1560" class="bivec">PnlWznmVer1NComponent.TcoRef</tspan>
+			<tspan x="4" y="1572" class="bivec">PnlWznmVerBvr1NVersion.TcoRef</tspan>
+			<tspan x="4" y="1584" class="bivec">PnlWznmVerRef1NFile.TcoRef</tspan>
+			<tspan x="4" y="1596" class="bivec">PnlWznmVerMNLocale.TcoMref</tspan>
+			<tspan x="4" y="1608" class="bivec">PnlWznmCapList.TcoSrf</tspan>
+			<tspan x="4" y="1620" class="bivec">PnlWznmCapList.TcoTit</tspan>
+			<tspan x="4" y="1632" class="bivec">PnlWznmCapList.TcoVer</tspan>
+			<tspan x="4" y="1644" class="bivec">PnlWznmCapList.TcoTpl</tspan>
+			<tspan x="4" y="1656" class="bivec">PnlWznmCapList.TcoAtf</tspan>
+			<tspan x="4" y="1668" class="bivec">PnlWznmCapAPar.TcoKey</tspan>
+			<tspan x="4" y="1680" class="bivec">PnlWznmCapAPar.TcoVal</tspan>
+			<tspan x="4" y="1692" class="bivec">PnlWznmErrList.TcoSrf</tspan>
+			<tspan x="4" y="1704" class="bivec">PnlWznmErrList.TcoTit</tspan>
+			<tspan x="4" y="1716" class="bivec">PnlWznmErrList.TcoVer</tspan>
+			<tspan x="4" y="1728" class="bivec">PnlWznmTblList.TcoSrf</tspan>
+			<tspan x="4" y="1740" class="bivec">PnlWznmTblList.TcoSho</tspan>
+			<tspan x="4" y="1752" class="bivec">PnlWznmTblList.TcoTyp</tspan>
+			<tspan x="4" y="1764" class="bivec">PnlWznmTblList.TcoVer</tspan>
+			<tspan x="4" y="1776" class="bivec">PnlWznmTblList.TcoRet</tspan>
+			<tspan x="4" y="1788" class="bivec">PnlWznmTblList.TcoReu</tspan>
+			<tspan x="4" y="1800" class="bivec">PnlWznmTblATitle.TcoTyp</tspan>
+			<tspan x="4" y="1812" class="bivec">PnlWznmTblATitle.TcoLoc</tspan>
+			<tspan x="4" y="1824" class="bivec">PnlWznmTblATitle.TcoGnd</tspan>
+			<tspan x="4" y="1836" class="bivec">PnlWznmTblATitle.TcoTit</tspan>
+			<tspan x="4" y="1848" class="bivec">PnlWznmTblALoadfct.TcoLot</tspan>
+			<tspan x="4" y="1860" class="bivec">PnlWznmTblALoadfct.TcoFna</tspan>
+			<tspan x="4" y="1872" class="bivec">PnlWznmTblALoadfct.TcoLdx</tspan>
+			<tspan x="4" y="1884" class="bivec">PnlWznmTblALoadfct.TcoLby</tspan>
+			<tspan x="4" y="1896" class="bivec">PnlWznmTblALoadfct.TcoOrd</tspan>
+			<tspan x="4" y="1908" class="bivec">PnlWznmTblALoadfct.TcoLit</tspan>
+			<tspan x="4" y="1920" class="bivec">PnlWznmTblTbl1NTablecol.TcoRef</tspan>
+			<tspan x="4" y="1932" class="bivec">PnlWznmTbl1NSubset.TcoRef</tspan>
+			<tspan x="4" y="1944" class="bivec">PnlWznmTbl1NStub.TcoRef</tspan>
+			<tspan x="4" y="1956" class="bivec">PnlWznmTblTo1NRelation.TcoRef</tspan>
+			<tspan x="4" y="1968" class="bivec">PnlWznmTblFr1NRelation.TcoRef</tspan>
+			<tspan x="4" y="1980" class="bivec">PnlWznmTbl1NCheck.TcoRef</tspan>
+			<tspan x="4" y="1992" class="bivec">PnlWznmTbl1NImpexp.TcoRef</tspan>
+			<tspan x="4" y="2004" class="bivec">PnlWznmTblRef1NRtblock.TcoRef</tspan>
+			<tspan x="4" y="2016" class="bivec">PnlWznmTblRef1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="2028" class="bivec">PnlWznmTblFct1NTablecol.TcoRef</tspan>
+			<tspan x="4" y="2040" class="bivec">PnlWznmTblHk1NVector.TcoRef</tspan>
+			<tspan x="4" y="2052" class="bivec">PnlWznmTblRef1NPanel.TcoRef</tspan>
+			<tspan x="4" y="2064" class="bivec">PnlWznmTblSrc1NFeed.TcoRef</tspan>
+			<tspan x="4" y="2076" class="bivec">PnlWznmTblRef1NCall.TcoRef</tspan>
+			<tspan x="4" y="2088" class="bivec">PnlWznmTblRef1NDialog.TcoRef</tspan>
+			<tspan x="4" y="2100" class="bivec">PnlWznmTblPst1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="2112" class="bivec">PnlWznmTblMNVector.TcoMref</tspan>
+			<tspan x="4" y="2124" class="bivec">PnlWznmTblMNVector.TcoSbs</tspan>
+			<tspan x="4" y="2136" class="bivec">PnlWznmTblMNQuery.TcoMref</tspan>
+			<tspan x="4" y="2148" class="bivec">PnlWznmTblMNQuery.TcoTqmd</tspan>
+			<tspan x="4" y="2160" class="bivec">PnlWznmTblMNQuery.TcoSrc</tspan>
+			<tspan x="4" y="2172" class="bivec">PnlWznmTblMNQuery.TcoPfx</tspan>
+			<tspan x="4" y="2184" class="bivec">PnlWznmTcoList.TcoSrf</tspan>
+			<tspan x="4" y="2196" class="bivec">PnlWznmTcoList.TcoSho</tspan>
+			<tspan x="4" y="2208" class="bivec">PnlWznmTcoList.TcoTyp</tspan>
+			<tspan x="4" y="2220" class="bivec">PnlWznmTcoList.TcoTbl</tspan>
+			<tspan x="4" y="2232" class="bivec">PnlWznmTcoList.TcoFct</tspan>
+			<tspan x="4" y="2244" class="bivec">PnlWznmTcoList.TcoSty</tspan>
+			<tspan x="4" y="2256" class="bivec">PnlWznmTcoList.TcoAxf</tspan>
+			<tspan x="4" y="2268" class="bivec">PnlWznmTcoATitle.TcoTyp</tspan>
+			<tspan x="4" y="2280" class="bivec">PnlWznmTcoATitle.TcoLoc</tspan>
+			<tspan x="4" y="2292" class="bivec">PnlWznmTcoATitle.TcoTit</tspan>
+			<tspan x="4" y="2304" class="bivec">PnlWznmTco1NQuerycol.TcoRef</tspan>
+			<tspan x="4" y="2316" class="bivec">PnlWznmTco1NImpexpcol.TcoRef</tspan>
+			<tspan x="4" y="2328" class="bivec">PnlWznmTcoRef1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="2340" class="bivec">PnlWznmTcoRef1NControl.TcoRef</tspan>
+			<tspan x="4" y="2352" class="bivec">PnlWznmTco1NCheck.TcoRef</tspan>
+			<tspan x="4" y="2364" class="bivec">PnlWznmSbsList.TcoSrf</tspan>
+			<tspan x="4" y="2376" class="bivec">PnlWznmSbsList.TcoSho</tspan>
+			<tspan x="4" y="2388" class="bivec">PnlWznmSbsList.TcoTbl</tspan>
+			<tspan x="4" y="2400" class="bivec">PnlWznmSbsATitle.TcoTyp</tspan>
+			<tspan x="4" y="2412" class="bivec">PnlWznmSbsATitle.TcoLoc</tspan>
+			<tspan x="4" y="2424" class="bivec">PnlWznmSbsATitle.TcoGnd</tspan>
+			<tspan x="4" y="2436" class="bivec">PnlWznmSbsATitle.TcoTit</tspan>
+			<tspan x="4" y="2448" class="bivec">PnlWznmSbs1NStub.TcoRef</tspan>
+			<tspan x="4" y="2460" class="bivec">PnlWznmSbs1NTablecol.TcoRef</tspan>
+			<tspan x="4" y="2472" class="bivec">PnlWznmSbsFrs1NRelation.TcoRef</tspan>
+			<tspan x="4" y="2484" class="bivec">PnlWznmSbsTos1NRelation.TcoRef</tspan>
+			<tspan x="4" y="2496" class="bivec">PnlWznmSbsPst1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="2508" class="bivec">PnlWznmSbsAsbMNSubset.TcoMref</tspan>
+			<tspan x="4" y="2520" class="bivec">PnlWznmSbsAsbMNSubset.TcoRty</tspan>
+			<tspan x="4" y="2532" class="bivec">PnlWznmSbsBsbMNSubset.TcoMref</tspan>
+			<tspan x="4" y="2544" class="bivec">PnlWznmSbsBsbMNSubset.TcoRty</tspan>
+			<tspan x="4" y="2556" class="bivec">PnlWznmRelList.TcoFrt</tspan>
+			<tspan x="4" y="2568" class="bivec">PnlWznmRelList.TcoFrs</tspan>
+			<tspan x="4" y="2580" class="bivec">PnlWznmRelList.TcoTot</tspan>
+			<tspan x="4" y="2592" class="bivec">PnlWznmRelList.TcoTos</tspan>
+			<tspan x="4" y="2604" class="bivec">PnlWznmRelList.TcoTyp</tspan>
+			<tspan x="4" y="2616" class="bivec">PnlWznmRelList.TcoVer</tspan>
+			<tspan x="4" y="2628" class="bivec">PnlWznmRelList.TcoSup</tspan>
+			<tspan x="4" y="2640" class="bivec">PnlWznmRelList.TcoSrl</tspan>
+			<tspan x="4" y="2652" class="bivec">PnlWznmRelList.TcoTbl</tspan>
+			<tspan x="4" y="2664" class="bivec">PnlWznmRelList.TcoPfx</tspan>
+			<tspan x="4" y="2676" class="bivec">PnlWznmRelATitle.TcoTyp</tspan>
+			<tspan x="4" y="2688" class="bivec">PnlWznmRelATitle.TcoLoc</tspan>
+			<tspan x="4" y="2700" class="bivec">PnlWznmRelATitle.TcoTit</tspan>
+			<tspan x="4" y="2712" class="bivec">PnlWznmRel1NTablecol.TcoRef</tspan>
+			<tspan x="4" y="2724" class="bivec">PnlWznmRelSup1NRelation.TcoRef</tspan>
+			<tspan x="4" y="2736" class="bivec">PnlWznmRelRef1NPanel.TcoRef</tspan>
+			<tspan x="4" y="2748" class="bivec">PnlWznmRelRef1NDialog.TcoRef</tspan>
+			<tspan x="4" y="2760" class="bivec">PnlWznmRelRef1NControl.TcoRef</tspan>
+			<tspan x="4" y="2772" class="bivec">PnlWznmVecList.TcoSrf</tspan>
+			<tspan x="4" y="2784" class="bivec">PnlWznmVecList.TcoTyp</tspan>
+			<tspan x="4" y="2796" class="bivec">PnlWznmVecList.TcoVer</tspan>
+			<tspan x="4" y="2808" class="bivec">PnlWznmVecList.TcoHkt</tspan>
+			<tspan x="4" y="2820" class="bivec">PnlWznmVecList.TcoHku</tspan>
+			<tspan x="4" y="2832" class="bivec">PnlWznmVecList.TcoTgr</tspan>
+			<tspan x="4" y="2844" class="bivec">PnlWznmVecATitle.TcoTyp</tspan>
+			<tspan x="4" y="2856" class="bivec">PnlWznmVecATitle.TcoLoc</tspan>
+			<tspan x="4" y="2868" class="bivec">PnlWznmVecATitle.TcoTit</tspan>
+			<tspan x="4" y="2880" class="bivec">PnlWznmVecVec1NVectoritem.TcoRef</tspan>
+			<tspan x="4" y="2892" class="bivec">PnlWznmVecFct1NTablecol.TcoRef</tspan>
+			<tspan x="4" y="2904" class="bivec">PnlWznmVecRef1NPanel.TcoRef</tspan>
+			<tspan x="4" y="2916" class="bivec">PnlWznmVecSrc1NFeed.TcoRef</tspan>
+			<tspan x="4" y="2928" class="bivec">PnlWznmVecPst1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="2940" class="bivec">PnlWznmVecMNTable.TcoMref</tspan>
+			<tspan x="4" y="2952" class="bivec">PnlWznmVecMNTable.TcoSbs</tspan>
+			<tspan x="4" y="2964" class="bivec">PnlWznmVitList.TcoSrf</tspan>
+			<tspan x="4" y="2976" class="bivec">PnlWznmVitList.TcoTit</tspan>
+			<tspan x="4" y="2988" class="bivec">PnlWznmVitList.TcoVec</tspan>
+			<tspan x="4" y="3000" class="bivec">PnlWznmChkList.TcoSrf</tspan>
+			<tspan x="4" y="3012" class="bivec">PnlWznmChkList.TcoTyp</tspan>
+			<tspan x="4" y="3024" class="bivec">PnlWznmChkList.TcoTbl</tspan>
+			<tspan x="4" y="3036" class="bivec">PnlWznmChkList.TcoTco</tspan>
+			<tspan x="4" y="3048" class="bivec">PnlWznmChkRef1NCall.TcoRef</tspan>
+			<tspan x="4" y="3060" class="bivec">PnlWznmStbList.TcoSrf</tspan>
+			<tspan x="4" y="3072" class="bivec">PnlWznmStbList.TcoTyp</tspan>
+			<tspan x="4" y="3084" class="bivec">PnlWznmStbList.TcoTbl</tspan>
+			<tspan x="4" y="3096" class="bivec">PnlWznmStbList.TcoSbs</tspan>
+			<tspan x="4" y="3108" class="bivec">PnlWznmStbList.TcoExa</tspan>
+			<tspan x="4" y="3120" class="bivec">PnlWznmStbSupMNStub.TcoMref</tspan>
+			<tspan x="4" y="3132" class="bivec">PnlWznmStbMNSquawk.TcoMref</tspan>
+			<tspan x="4" y="3144" class="bivec">PnlWznmStbSubMNStub.TcoMref</tspan>
+			<tspan x="4" y="3156" class="bivec">PnlWznmStbMNCall.TcoMref</tspan>
+			<tspan x="4" y="3168" class="bivec">PnlWznmIexList.TcoSrf</tspan>
+			<tspan x="4" y="3180" class="bivec">PnlWznmIexList.TcoSho</tspan>
+			<tspan x="4" y="3192" class="bivec">PnlWznmIexList.TcoTit</tspan>
+			<tspan x="4" y="3204" class="bivec">PnlWznmIexList.TcoVer</tspan>
+			<tspan x="4" y="3216" class="bivec">PnlWznmIexList.TcoMiv</tspan>
+			<tspan x="4" y="3228" class="bivec">PnlWznmIex1NImpexp.TcoRef</tspan>
+			<tspan x="4" y="3240" class="bivec">PnlWznmIexHk1NVector.TcoRef</tspan>
+			<tspan x="4" y="3252" class="bivec">PnlWznmIexRef1NDialog.TcoRef</tspan>
+			<tspan x="4" y="3264" class="bivec">PnlWznmImeList.TcoSrf</tspan>
+			<tspan x="4" y="3276" class="bivec">PnlWznmImeList.TcoIex</tspan>
+			<tspan x="4" y="3288" class="bivec">PnlWznmImeList.TcoSup</tspan>
+			<tspan x="4" y="3300" class="bivec">PnlWznmImeList.TcoTbl</tspan>
+			<tspan x="4" y="3312" class="bivec">PnlWznmImeIme1NImpexpcol.TcoRef</tspan>
+			<tspan x="4" y="3324" class="bivec">PnlWznmImeSup1NImpexp.TcoRef</tspan>
+			<tspan x="4" y="3336" class="bivec">PnlWznmImeHk1NVector.TcoRef</tspan>
+			<tspan x="4" y="3348" class="bivec">PnlWznmIelList.TcoSrf</tspan>
+			<tspan x="4" y="3360" class="bivec">PnlWznmIelList.TcoSho</tspan>
+			<tspan x="4" y="3372" class="bivec">PnlWznmIelList.TcoTyp</tspan>
+			<tspan x="4" y="3384" class="bivec">PnlWznmIelList.TcoIme</tspan>
+			<tspan x="4" y="3396" class="bivec">PnlWznmIelList.TcoTco</tspan>
+			<tspan x="4" y="3408" class="bivec">PnlWznmIelList.TcoCty</tspan>
+			<tspan x="4" y="3420" class="bivec">PnlWznmPstList.TcoSrf</tspan>
+			<tspan x="4" y="3432" class="bivec">PnlWznmPstList.TcoTit</tspan>
+			<tspan x="4" y="3444" class="bivec">PnlWznmPstList.TcoVer</tspan>
+			<tspan x="4" y="3456" class="bivec">PnlWznmPstList.TcoRet</tspan>
+			<tspan x="4" y="3468" class="bivec">PnlWznmPstList.TcoReu</tspan>
+			<tspan x="4" y="3480" class="bivec">PnlWznmPstList.TcoAty</tspan>
+			<tspan x="4" y="3492" class="bivec">PnlWznmPst1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="3504" class="bivec">PnlWznmMdlList.TcoSrf</tspan>
+			<tspan x="4" y="3516" class="bivec">PnlWznmMdlList.TcoTit</tspan>
+			<tspan x="4" y="3528" class="bivec">PnlWznmMdlList.TcoVer</tspan>
+			<tspan x="4" y="3540" class="bivec">PnlWznmMdlMdl1NCard.TcoRef</tspan>
+			<tspan x="4" y="3552" class="bivec">PnlWznmMdlRef1NPanel.TcoRef</tspan>
+			<tspan x="4" y="3564" class="bivec">PnlWznmCarList.TcoSrf</tspan>
+			<tspan x="4" y="3576" class="bivec">PnlWznmCarList.TcoTit</tspan>
+			<tspan x="4" y="3588" class="bivec">PnlWznmCarList.TcoMdl</tspan>
+			<tspan x="4" y="3600" class="bivec">PnlWznmCarList.TcoRet</tspan>
+			<tspan x="4" y="3612" class="bivec">PnlWznmCarList.TcoReu</tspan>
+			<tspan x="4" y="3624" class="bivec">PnlWznmCarCar1NPanel.TcoRef</tspan>
+			<tspan x="4" y="3636" class="bivec">PnlWznmCar1NDialog.TcoRef</tspan>
+			<tspan x="4" y="3648" class="bivec">PnlWznmCarHk1NControl.TcoRef</tspan>
+			<tspan x="4" y="3660" class="bivec">PnlWznmDlgList.TcoSrf</tspan>
+			<tspan x="4" y="3672" class="bivec">PnlWznmDlgList.TcoTyp</tspan>
+			<tspan x="4" y="3684" class="bivec">PnlWznmDlgList.TcoCar</tspan>
+			<tspan x="4" y="3696" class="bivec">PnlWznmDlgList.TcoRet</tspan>
+			<tspan x="4" y="3708" class="bivec">PnlWznmDlgList.TcoReu</tspan>
+			<tspan x="4" y="3720" class="bivec">PnlWznmDlgHk1NControl.TcoRef</tspan>
+			<tspan x="4" y="3732" class="bivec">PnlWznmDlgRef1NControl.TcoRef</tspan>
+			<tspan x="4" y="3744" class="bivec">PnlWznmDlgMNQuery.TcoMref</tspan>
+			<tspan x="4" y="3756" class="bivec">PnlWznmPnlList.TcoSrf</tspan>
+			<tspan x="4" y="3768" class="bivec">PnlWznmPnlList.TcoTyp</tspan>
+			<tspan x="4" y="3780" class="bivec">PnlWznmPnlList.TcoCar</tspan>
+			<tspan x="4" y="3792" class="bivec">PnlWznmPnlList.TcoRet</tspan>
+			<tspan x="4" y="3804" class="bivec">PnlWznmPnlList.TcoReu</tspan>
+			<tspan x="4" y="3816" class="bivec">PnlWznmPnlHk1NControl.TcoRef</tspan>
+			<tspan x="4" y="3828" class="bivec">PnlWznmPnlMNQuery.TcoMref</tspan>
+			<tspan x="4" y="3840" class="bivec">PnlWznmQryList.TcoSrf</tspan>
+			<tspan x="4" y="3852" class="bivec">PnlWznmQryList.TcoTyp</tspan>
+			<tspan x="4" y="3864" class="bivec">PnlWznmQryList.TcoVer</tspan>
+			<tspan x="4" y="3876" class="bivec">PnlWznmQryList.TcoSup</tspan>
+			<tspan x="4" y="3888" class="bivec">PnlWznmQryList.TcoSrl</tspan>
+			<tspan x="4" y="3900" class="bivec">PnlWznmQryList.TcoTbl</tspan>
+			<tspan x="4" y="3912" class="bivec">PnlWznmQryList.TcoQtb</tspan>
+			<tspan x="4" y="3924" class="bivec">PnlWznmQryAClause.TcoQmd</tspan>
+			<tspan x="4" y="3936" class="bivec">PnlWznmQryAClause.TcoTyp</tspan>
+			<tspan x="4" y="3948" class="bivec">PnlWznmQryAClause.TcoCse</tspan>
+			<tspan x="4" y="3960" class="bivec">PnlWznmQryAClause.TcoPst</tspan>
+			<tspan x="4" y="3972" class="bivec">PnlWznmQryAClause.TcoVec</tspan>
+			<tspan x="4" y="3984" class="bivec">PnlWznmQryAClause.TcoVit</tspan>
+			<tspan x="4" y="3996" class="bivec">PnlWznmQryAOrder.TcoSho</tspan>
+			<tspan x="4" y="4008" class="bivec">PnlWznmQryAOrder.TcoTco</tspan>
+			<tspan x="4" y="4020" class="bivec">PnlWznmQry1NQuerymod.TcoRef</tspan>
+			<tspan x="4" y="4032" class="bivec">PnlWznmQryQry1NQuerycol.TcoRef</tspan>
+			<tspan x="4" y="4044" class="bivec">PnlWznmQrySup1NQuery.TcoRef</tspan>
+			<tspan x="4" y="4056" class="bivec">PnlWznmQryMNTable.TcoMref</tspan>
+			<tspan x="4" y="4068" class="bivec">PnlWznmQryMNTable.TcoTqmd</tspan>
+			<tspan x="4" y="4080" class="bivec">PnlWznmQryMNTable.TcoSrc</tspan>
+			<tspan x="4" y="4092" class="bivec">PnlWznmQryMNTable.TcoPfx</tspan>
+			<tspan x="4" y="4104" class="bivec">PnlWznmQryMNPanel.TcoMref</tspan>
+			<tspan x="4" y="4116" class="bivec">PnlWznmQryMNDialog.TcoMref</tspan>
+			<tspan x="4" y="4128" class="bivec">PnlWznmQcoList.TcoSrf</tspan>
+			<tspan x="4" y="4140" class="bivec">PnlWznmQcoList.TcoSho</tspan>
+			<tspan x="4" y="4152" class="bivec">PnlWznmQcoList.TcoTyp</tspan>
+			<tspan x="4" y="4164" class="bivec">PnlWznmQcoList.TcoQry</tspan>
+			<tspan x="4" y="4176" class="bivec">PnlWznmQcoList.TcoTco</tspan>
+			<tspan x="4" y="4188" class="bivec">PnlWznmQcoRef1NControl.TcoRef</tspan>
+			<tspan x="4" y="4200" class="bivec">PnlWznmQmdList.TcoTyp</tspan>
+			<tspan x="4" y="4212" class="bivec">PnlWznmQmdList.TcoQry</tspan>
+			<tspan x="4" y="4224" class="bivec">PnlWznmQmdList.TcoPst</tspan>
+			<tspan x="4" y="4236" class="bivec">PnlWznmQmdList.TcoRet</tspan>
+			<tspan x="4" y="4248" class="bivec">PnlWznmQmdList.TcoReu</tspan>
+			<tspan x="4" y="4260" class="bivec">PnlWznmConList.TcoSrf</tspan>
+			<tspan x="4" y="4272" class="bivec">PnlWznmConList.TcoTit</tspan>
+			<tspan x="4" y="4284" class="bivec">PnlWznmConList.TcoTyp</tspan>
+			<tspan x="4" y="4296" class="bivec">PnlWznmConList.TcoHkt</tspan>
+			<tspan x="4" y="4308" class="bivec">PnlWznmConList.TcoHku</tspan>
+			<tspan x="4" y="4320" class="bivec">PnlWznmConList.TcoSct</tspan>
+			<tspan x="4" y="4332" class="bivec">PnlWznmConList.TcoRet</tspan>
+			<tspan x="4" y="4344" class="bivec">PnlWznmConList.TcoReu</tspan>
+			<tspan x="4" y="4356" class="bivec">PnlWznmConList.TcoSup</tspan>
+			<tspan x="4" y="4368" class="bivec">PnlWznmConList.TcoSty</tspan>
+			<tspan x="4" y="4380" class="bivec">PnlWznmConAPar.TcoKey</tspan>
+			<tspan x="4" y="4392" class="bivec">PnlWznmConAPar.TcoLoc</tspan>
+			<tspan x="4" y="4404" class="bivec">PnlWznmConAPar.TcoVal</tspan>
+			<tspan x="4" y="4416" class="bivec">PnlWznmConSup1NControl.TcoRef</tspan>
+			<tspan x="4" y="4428" class="bivec">PnlWznmConFedRef1NRtblock.TcoRef</tspan>
+			<tspan x="4" y="4440" class="bivec">PnlWznmOpkList.TcoSrf</tspan>
+			<tspan x="4" y="4452" class="bivec">PnlWznmOpkList.TcoTit</tspan>
+			<tspan x="4" y="4464" class="bivec">PnlWznmOpkList.TcoTyp</tspan>
+			<tspan x="4" y="4476" class="bivec">PnlWznmOpkList.TcoVer</tspan>
+			<tspan x="4" y="4488" class="bivec">PnlWznmOpkList.TcoShd</tspan>
+			<tspan x="4" y="4500" class="bivec">PnlWznmOpkAInvarg.TcoSrf</tspan>
+			<tspan x="4" y="4512" class="bivec">PnlWznmOpkAInvarg.TcoVty</tspan>
+			<tspan x="4" y="4524" class="bivec">PnlWznmOpkAInvarg.TcoVec</tspan>
+			<tspan x="4" y="4536" class="bivec">PnlWznmOpkAInvarg.TcoDvl</tspan>
+			<tspan x="4" y="4548" class="bivec">PnlWznmOpkAInvarg.TcoVit</tspan>
+			<tspan x="4" y="4560" class="bivec">PnlWznmOpkAInvarg.TcoCmt</tspan>
+			<tspan x="4" y="4572" class="bivec">PnlWznmOpkARetval.TcoSrf</tspan>
+			<tspan x="4" y="4584" class="bivec">PnlWznmOpkARetval.TcoVty</tspan>
+			<tspan x="4" y="4596" class="bivec">PnlWznmOpkARetval.TcoVec</tspan>
+			<tspan x="4" y="4608" class="bivec">PnlWznmOpkARetval.TcoCmt</tspan>
+			<tspan x="4" y="4620" class="bivec">PnlWznmOpk1NOp.TcoRef</tspan>
+			<tspan x="4" y="4632" class="bivec">PnlWznmOpkRef1NBlock.TcoRef</tspan>
+			<tspan x="4" y="4644" class="bivec">PnlWznmOpkMNJob.TcoMref</tspan>
+			<tspan x="4" y="4656" class="bivec">PnlWznmOpkMNLibrary.TcoMref</tspan>
+			<tspan x="4" y="4668" class="bivec">PnlWznmOpkMNComponent.TcoMref</tspan>
+			<tspan x="4" y="4680" class="bivec">PnlWznmOpkSqkMNStub.TcoMref</tspan>
+			<tspan x="4" y="4692" class="bivec">PnlWznmOpxList.TcoSrf</tspan>
+			<tspan x="4" y="4704" class="bivec">PnlWznmOpxList.TcoOpk</tspan>
+			<tspan x="4" y="4716" class="bivec">PnlWznmOpxList.TcoShd</tspan>
+			<tspan x="4" y="4728" class="bivec">PnlWznmOpxARetval.TcoSrf</tspan>
+			<tspan x="4" y="4740" class="bivec">PnlWznmOpxARetval.TcoVty</tspan>
+			<tspan x="4" y="4752" class="bivec">PnlWznmOpxARetval.TcoVec</tspan>
+			<tspan x="4" y="4764" class="bivec">PnlWznmOpxARetval.TcoCmt</tspan>
+			<tspan x="4" y="4776" class="bivec">PnlWznmOpxAInvarg.TcoSrf</tspan>
+			<tspan x="4" y="4788" class="bivec">PnlWznmOpxAInvarg.TcoVty</tspan>
+			<tspan x="4" y="4800" class="bivec">PnlWznmOpxAInvarg.TcoVec</tspan>
+			<tspan x="4" y="4812" class="bivec">PnlWznmOpxAInvarg.TcoDvl</tspan>
+			<tspan x="4" y="4824" class="bivec">PnlWznmOpxAInvarg.TcoVit</tspan>
+			<tspan x="4" y="4836" class="bivec">PnlWznmOpxAInvarg.TcoCmt</tspan>
+			<tspan x="4" y="4848" class="bivec">PnlWznmOpxRef1NBlock.TcoRef</tspan>
+			<tspan x="4" y="4860" class="bivec">PnlWznmOpxMNJob.TcoMref</tspan>
+			<tspan x="4" y="4872" class="bivec">PnlWznmOpxSqkMNStub.TcoMref</tspan>
+			<tspan x="4" y="4884" class="bivec">PnlWznmJobList.TcoSrf</tspan>
+			<tspan x="4" y="4896" class="bivec">PnlWznmJobList.TcoTyp</tspan>
+			<tspan x="4" y="4908" class="bivec">PnlWznmJobList.TcoVer</tspan>
+			<tspan x="4" y="4920" class="bivec">PnlWznmJobList.TcoRet</tspan>
+			<tspan x="4" y="4932" class="bivec">PnlWznmJobList.TcoReu</tspan>
+			<tspan x="4" y="4944" class="bivec">PnlWznmJobList.TcoGbl</tspan>
+			<tspan x="4" y="4956" class="bivec">PnlWznmJobList.TcoCls</tspan>
+			<tspan x="4" y="4968" class="bivec">PnlWznmJobList.TcoShd</tspan>
+			<tspan x="4" y="4980" class="bivec">PnlWznmJobAVar.TcoSrf</tspan>
+			<tspan x="4" y="4992" class="bivec">PnlWznmJobAVar.TcoVty</tspan>
+			<tspan x="4" y="5004" class="bivec">PnlWznmJobAVar.TcoVec</tspan>
+			<tspan x="4" y="5016" class="bivec">PnlWznmJobAVar.TcoLen</tspan>
+			<tspan x="4" y="5028" class="bivec">PnlWznmJobAVar.TcoShr</tspan>
+			<tspan x="4" y="5040" class="bivec">PnlWznmJobAVar.TcoCmt</tspan>
+			<tspan x="4" y="5052" class="bivec">PnlWznmJobACmd.TcoSrf</tspan>
+			<tspan x="4" y="5064" class="bivec">PnlWznmJobACmd.TcoCmt</tspan>
+			<tspan x="4" y="5076" class="bivec">PnlWznmJob1NMethod.TcoRef</tspan>
+			<tspan x="4" y="5088" class="bivec">PnlWznmJob1NRtjob.TcoRef</tspan>
+			<tspan x="4" y="5100" class="bivec">PnlWznmJobJob1NStage.TcoRef</tspan>
+			<tspan x="4" y="5112" class="bivec">PnlWznmJob1NSensitivity.TcoRef</tspan>
+			<tspan x="4" y="5124" class="bivec">PnlWznmJobHk1NVector.TcoRef</tspan>
+			<tspan x="4" y="5136" class="bivec">PnlWznmJobRef1NBlock.TcoRef</tspan>
+			<tspan x="4" y="5148" class="bivec">PnlWznmJobMNOp.TcoMref</tspan>
+			<tspan x="4" y="5160" class="bivec">PnlWznmJobSupMNJob.TcoMref</tspan>
+			<tspan x="4" y="5172" class="bivec">PnlWznmJobSupMNJob.TcoSho</tspan>
+			<tspan x="4" y="5184" class="bivec">PnlWznmJobSupMNJob.TcoMlt</tspan>
+			<tspan x="4" y="5196" class="bivec">PnlWznmJobSupMNJob.TcoCsa</tspan>
+			<tspan x="4" y="5208" class="bivec">PnlWznmJobMNOppack.TcoMref</tspan>
+			<tspan x="4" y="5220" class="bivec">PnlWznmJobSubMNJob.TcoMref</tspan>
+			<tspan x="4" y="5232" class="bivec">PnlWznmJobSubMNJob.TcoSho</tspan>
+			<tspan x="4" y="5244" class="bivec">PnlWznmJobSubMNJob.TcoMlt</tspan>
+			<tspan x="4" y="5256" class="bivec">PnlWznmJobSubMNJob.TcoCsa</tspan>
+			<tspan x="4" y="5268" class="bivec">PnlWznmSgeList.TcoSrf</tspan>
+			<tspan x="4" y="5280" class="bivec">PnlWznmSgeList.TcoTyp</tspan>
+			<tspan x="4" y="5292" class="bivec">PnlWznmSgeList.TcoJob</tspan>
+			<tspan x="4" y="5304" class="bivec">PnlWznmSge1NSensitivity.TcoRef</tspan>
+			<tspan x="4" y="5316" class="bivec">PnlWznmSgeSqkMNStub.TcoMref</tspan>
+			<tspan x="4" y="5328" class="bivec">PnlWznmMtdList.TcoSrf</tspan>
+			<tspan x="4" y="5340" class="bivec">PnlWznmMtdList.TcoJob</tspan>
+			<tspan x="4" y="5352" class="bivec">PnlWznmMtdList.TcoExs</tspan>
+			<tspan x="4" y="5364" class="bivec">PnlWznmMtdARetpar.TcoSrf</tspan>
+			<tspan x="4" y="5376" class="bivec">PnlWznmMtdARetpar.TcoVty</tspan>
+			<tspan x="4" y="5388" class="bivec">PnlWznmMtdARetpar.TcoVec</tspan>
+			<tspan x="4" y="5400" class="bivec">PnlWznmMtdARetpar.TcoLen</tspan>
+			<tspan x="4" y="5412" class="bivec">PnlWznmMtdARetpar.TcoCmt</tspan>
+			<tspan x="4" y="5424" class="bivec">PnlWznmMtdAInvpar.TcoSrf</tspan>
+			<tspan x="4" y="5436" class="bivec">PnlWznmMtdAInvpar.TcoVty</tspan>
+			<tspan x="4" y="5448" class="bivec">PnlWznmMtdAInvpar.TcoVec</tspan>
+			<tspan x="4" y="5460" class="bivec">PnlWznmMtdAInvpar.TcoLen</tspan>
+			<tspan x="4" y="5472" class="bivec">PnlWznmMtdAInvpar.TcoCmt</tspan>
+			<tspan x="4" y="5484" class="bivec">PnlWznmBlkList.TcoSrf</tspan>
+			<tspan x="4" y="5496" class="bivec">PnlWznmBlkList.TcoTyp</tspan>
+			<tspan x="4" y="5508" class="bivec">PnlWznmBlkList.TcoVer</tspan>
+			<tspan x="4" y="5520" class="bivec">PnlWznmBlkList.TcoRet</tspan>
+			<tspan x="4" y="5532" class="bivec">PnlWznmBlkList.TcoReu</tspan>
+			<tspan x="4" y="5544" class="bivec">PnlWznmBlkAItem.TcoTyp</tspan>
+			<tspan x="4" y="5556" class="bivec">PnlWznmBlkAItem.TcoSrf</tspan>
+			<tspan x="4" y="5568" class="bivec">PnlWznmBlkAItem.TcoVty</tspan>
+			<tspan x="4" y="5580" class="bivec">PnlWznmBlkAItem.TcoCon</tspan>
+			<tspan x="4" y="5592" class="bivec">PnlWznmBlkAItem.TcoVec</tspan>
+			<tspan x="4" y="5604" class="bivec">PnlWznmBlkAItem.TcoFed</tspan>
+			<tspan x="4" y="5616" class="bivec">PnlWznmBlkAItem.TcoTbl</tspan>
+			<tspan x="4" y="5628" class="bivec">PnlWznmBlkAItem.TcoBl2</tspan>
+			<tspan x="4" y="5640" class="bivec">PnlWznmBlkAItem.TcoDfv</tspan>
+			<tspan x="4" y="5652" class="bivec">PnlWznmBlkAItem.TcoVit</tspan>
+			<tspan x="4" y="5664" class="bivec">PnlWznmBlkAItem.TcoCmt</tspan>
+			<tspan x="4" y="5676" class="bivec">PnlWznmBlk1NRtdpch.TcoRef</tspan>
+			<tspan x="4" y="5688" class="bivec">PnlWznmBlkRef1NRtblock.TcoRef</tspan>
+			<tspan x="4" y="5700" class="bivec">PnlWznmCalList.TcoSrf</tspan>
+			<tspan x="4" y="5712" class="bivec">PnlWznmCalList.TcoTyp</tspan>
+			<tspan x="4" y="5724" class="bivec">PnlWznmCalList.TcoVer</tspan>
+			<tspan x="4" y="5736" class="bivec">PnlWznmCalList.TcoRet</tspan>
+			<tspan x="4" y="5748" class="bivec">PnlWznmCalList.TcoReu</tspan>
+			<tspan x="4" y="5760" class="bivec">PnlWznmCalList.TcoIat</tspan>
+			<tspan x="4" y="5772" class="bivec">PnlWznmCalList.TcoRat</tspan>
+			<tspan x="4" y="5784" class="bivec">PnlWznmCal1NSensitivity.TcoRef</tspan>
+			<tspan x="4" y="5796" class="bivec">PnlWznmCalMNStub.TcoMref</tspan>
+			<tspan x="4" y="5808" class="bivec">PnlWznmCmpList.TcoSrf</tspan>
+			<tspan x="4" y="5820" class="bivec">PnlWznmCmpList.TcoTit</tspan>
+			<tspan x="4" y="5832" class="bivec">PnlWznmCmpList.TcoTyp</tspan>
+			<tspan x="4" y="5844" class="bivec">PnlWznmCmpList.TcoVer</tspan>
+			<tspan x="4" y="5856" class="bivec">PnlWznmCmp1NRelease.TcoRef</tspan>
+			<tspan x="4" y="5868" class="bivec">PnlWznmCmpMNOppack.TcoMref</tspan>
+			<tspan x="4" y="5880" class="bivec">PnlWznmCmpMNLibrary.TcoMref</tspan>
+			<tspan x="4" y="5892" class="bivec">PnlWznmRlsList.TcoSrf</tspan>
+			<tspan x="4" y="5904" class="bivec">PnlWznmRlsList.TcoCmp</tspan>
+			<tspan x="4" y="5916" class="bivec">PnlWznmRlsList.TcoMch</tspan>
+			<tspan x="4" y="5928" class="bivec">PnlWznmVisList.TcoGrp</tspan>
+			<tspan x="4" y="5940" class="bivec">PnlWznmVisList.TcoOwn</tspan>
+			<tspan x="4" y="5952" class="bivec">PnlWznmVisList.TcoTyp</tspan>
+			<tspan x="4" y="5964" class="bivec">PnlWznmVisList.TcoVer</tspan>
+			<tspan x="4" y="5976" class="bivec">PnlWznmVisVis1NSheet.TcoRef</tspan>
+			<tspan x="4" y="5988" class="bivec">PnlWznmVisRef1NFile.TcoRef</tspan>
+			<tspan x="4" y="6000" class="bivec">PnlWznmShtList.TcoTit</tspan>
+			<tspan x="4" y="6012" class="bivec">PnlWznmShtList.TcoVis</tspan>
+			<tspan x="4" y="6024" class="bivec">PnlWznmSht1NBox.TcoRef</tspan>
+			<tspan x="4" y="6036" class="bivec">PnlWznmBoxList.TcoSht</tspan>
+			<tspan x="4" y="6048" class="bivec">PnlWznmBoxList.TcoMtb</tspan>
+			<tspan x="4" y="6060" class="bivec">PnlWznmBoxList.TcoUnv</tspan>
+			<tspan x="4" y="6072" class="bivec">PnlWznmBoxOrgMNBox.TcoMref</tspan>
+			<tspan x="4" y="6084" class="bivec">PnlWznmBoxOrgMNBox.TcoOcl</tspan>
+			<tspan x="4" y="6096" class="bivec">PnlWznmBoxOrgMNBox.TcoDcl</tspan>
+			<tspan x="4" y="6108" class="bivec">PnlWznmBoxOrgMNBox.TcoWgt</tspan>
+			<tspan x="4" y="6120" class="bivec">PnlWznmBoxDstMNBox.TcoMref</tspan>
+			<tspan x="4" y="6132" class="bivec">PnlWznmBoxDstMNBox.TcoOcl</tspan>
+			<tspan x="4" y="6144" class="bivec">PnlWznmBoxDstMNBox.TcoDcl</tspan>
+			<tspan x="4" y="6156" class="bivec">PnlWznmBoxDstMNBox.TcoWgt</tspan>
+			<tspan x="4" y="6168" class="bivec">PnlWznmAppList.TcoGrp</tspan>
+			<tspan x="4" y="6180" class="bivec">PnlWznmAppList.TcoOwn</tspan>
+			<tspan x="4" y="6192" class="bivec">PnlWznmAppList.TcoSho</tspan>
+			<tspan x="4" y="6204" class="bivec">PnlWznmAppList.TcoTit</tspan>
+			<tspan x="4" y="6216" class="bivec">PnlWznmAppList.TcoTrg</tspan>
+			<tspan x="4" y="6228" class="bivec">PnlWznmAppList.TcoVer</tspan>
+			<tspan x="4" y="6240" class="bivec">PnlWznmAppApp1NSequence.TcoRef</tspan>
+			<tspan x="4" y="6252" class="bivec">PnlWznmApp1NRtjob.TcoRef</tspan>
+			<tspan x="4" y="6264" class="bivec">PnlWznmApp1NEvent.TcoRef</tspan>
+			<tspan x="4" y="6276" class="bivec">PnlWznmAppRef1NFile.TcoRef</tspan>
+			<tspan x="4" y="6288" class="bivec">PnlWznmRtjList.TcoSrf</tspan>
+			<tspan x="4" y="6300" class="bivec">PnlWznmRtjList.TcoApp</tspan>
+			<tspan x="4" y="6312" class="bivec">PnlWznmRtjList.TcoSup</tspan>
+			<tspan x="4" y="6324" class="bivec">PnlWznmRtjList.TcoJob</tspan>
+			<tspan x="4" y="6336" class="bivec">PnlWznmRtj1NRtdpch.TcoRef</tspan>
+			<tspan x="4" y="6348" class="bivec">PnlWznmRtj1NRtblock.TcoRef</tspan>
+			<tspan x="4" y="6360" class="bivec">PnlWznmRtjSup1NRtjob.TcoRef</tspan>
+			<tspan x="4" y="6372" class="bivec">PnlWznmEvtList.TcoSrf</tspan>
+			<tspan x="4" y="6384" class="bivec">PnlWznmEvtList.TcoApp</tspan>
+			<tspan x="4" y="6396" class="bivec">PnlWznmSeqList.TcoSrf</tspan>
+			<tspan x="4" y="6408" class="bivec">PnlWznmSeqList.TcoTit</tspan>
+			<tspan x="4" y="6420" class="bivec">PnlWznmSeqList.TcoApp</tspan>
+			<tspan x="4" y="6432" class="bivec">PnlWznmSeqSeq1NState.TcoRef</tspan>
+			<tspan x="4" y="6444" class="bivec">PnlWznmSteList.TcoSrf</tspan>
+			<tspan x="4" y="6456" class="bivec">PnlWznmSteList.TcoSeq</tspan>
+			<tspan x="4" y="6468" class="bivec">PnlWznmSteATrig.TcoSrf</tspan>
+			<tspan x="4" y="6480" class="bivec">PnlWznmSteATrig.TcoTyp</tspan>
+			<tspan x="4" y="6492" class="bivec">PnlWznmSteATrig.TcoEvt</tspan>
+			<tspan x="4" y="6504" class="bivec">PnlWznmSteATrig.TcoRtj</tspan>
+			<tspan x="4" y="6516" class="bivec">PnlWznmSteATrig.TcoVit</tspan>
+			<tspan x="4" y="6528" class="bivec">PnlWznmSteATrig.TcoXsr</tspan>
+			<tspan x="4" y="6540" class="bivec">PnlWznmSteATrig.TcoRtd</tspan>
+			<tspan x="4" y="6552" class="bivec">PnlWznmSteATrig.TcoMsk</tspan>
+			<tspan x="4" y="6564" class="bivec">PnlWznmSteATrig.TcoCnd</tspan>
+			<tspan x="4" y="6576" class="bivec">PnlWznmSteAAction.TcoSct</tspan>
+			<tspan x="4" y="6588" class="bivec">PnlWznmSteAAction.TcoTyp</tspan>
+			<tspan x="4" y="6600" class="bivec">PnlWznmSteAAction.TcoTrj</tspan>
+			<tspan x="4" y="6612" class="bivec">PnlWznmSteAAction.TcoVec</tspan>
+			<tspan x="4" y="6624" class="bivec">PnlWznmSteAAction.TcoVit</tspan>
+			<tspan x="4" y="6636" class="bivec">PnlWznmSteAAction.TcoSnx</tspan>
+			<tspan x="4" y="6648" class="bivec">PnlWznmSteAAction.TcoSeq</tspan>
+			<tspan x="4" y="6660" class="bivec">PnlWznmSteAAction.TcoTr1</tspan>
+			<tspan x="4" y="6672" class="bivec">PnlWznmSteAAction.TcoIp1</tspan>
+			<tspan x="4" y="6684" class="bivec">PnlWznmSteAAction.TcoTr2</tspan>
+			<tspan x="4" y="6696" class="bivec">PnlWznmSteAAction.TcoIp2</tspan>
+			<tspan x="4" y="6708" class="bivec">PnlWznmSteAAction.TcoTr3</tspan>
+			<tspan x="4" y="6720" class="bivec">PnlWznmSteAAction.TcoIp3</tspan>
+			<tspan x="4" y="6732" class="bivec">PnlWznmSteAAction.TcoTr4</tspan>
+			<tspan x="4" y="6744" class="bivec">PnlWznmSteAAction.TcoIp4</tspan>
+		</text>
+	</g>
+	<g id="box4506" transform="translate(415,15)" onmousedown="handleBoxMdn(event,4506)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVFeatgroup</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">card (VecWznmVCard)</tspan>
+		</text>
+	</g>
+	<g id="box4507" transform="translate(615,15)" onmousedown="handleBoxMdn(event,4507)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVKeylist</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,320L0.0,320L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">key (KlstWznmKAMCapabilityParKey)</tspan>
+			<tspan x="4" y="48" class="bivec">key (KlstWznmKAMControlParKey)</tspan>
+			<tspan x="4" y="60" class="bivec">value (KlstWznmKAMControlParVal)</tspan>
+			<tspan x="4" y="72" class="bivec">tag (KlstWznmKAMLibraryMakefileTag)</tspan>
+			<tspan x="4" y="84" class="bivec">tag (KlstWznmKAMMachineMakefileTag)</tspan>
+			<tspan x="4" y="96" class="bivec">key (KlstWznmKAMMachineParKey)</tspan>
+			<tspan x="4" y="108" class="bivec">type (KlstWznmKAMPersonDetailType)</tspan>
+			<tspan x="4" y="120" class="bivec">options (KlstWznmKMControlOption)</tspan>
+			<tspan x="4" y="132" class="bivec">content (KlstWznmKMFileContent)</tspan>
+			<tspan x="4" y="144" class="bivec">MIME type (KlstWznmKMFileMimetype)</tspan>
+			<tspan x="4" y="156" class="bivec">license type (KlstWznmKMLibraryLictype)</tspan>
+			<tspan x="4" y="168" class="bivec">package manager (KlstWznmKMMachinePkgmgr)</tspan>
+			<tspan x="4" y="180" class="bivec">options (KlstWznmKMRelationOption)</tspan>
+			<tspan x="4" y="192" class="bivec">options (KlstWznmKMReleaseOption)</tspan>
+			<tspan x="4" y="204" class="bivec">options (KlstWznmKMTablecolOption)</tspan>
+			<tspan x="4" y="216" class="bivec">options (KlstWznmKMVectorOption)</tspan>
+			<tspan x="4" y="228" class="bivec">key (KlstWznmKRMCapabilityUniversalKey)</tspan>
+			<tspan x="4" y="240" class="bivec">function (KlstWznmKRMPersonMProjectFunction)</tspan>
+			<tspan x="4" y="252" class="bivec">tag group (KlstWznmKTaggrp)</tspan>
+			<tspan x="4" y="264" class="bivec">WznmCtpGenjtr custom operations (KlstKWznmCtpGenjtrCustop)</tspan>
+			<tspan x="4" y="276" class="bivec">WznmCtpGenui custom operations (KlstKWznmCtpGenuiCustop)</tspan>
+			<tspan x="4" y="288" class="bivec">WznmCtpWrsrv custom operations (KlstKWznmCtpWrsrvCustop)</tspan>
+			<tspan x="4" y="300" class="bivec">WznmCtpWrstkit custom operations (KlstKWznmCtpWrstkitCustop)</tspan>
+			<tspan x="4" y="312" class="bivec">WznmCtpWrweb custom operations (KlstKWznmCtpWrwebCustop)</tspan>
+		</text>
+	</g>
+	<g id="box4508" transform="translate(815,15)" onmousedown="handleBoxMdn(event,4508)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVLat</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,56L0.0,56L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">by operator (dlo)</tspan>
+			<tspan x="4" y="48" class="bivec">initial (ini)</tspan>
+		</text>
+	</g>
+	<g id="box4509" transform="translate(1015,15)" onmousedown="handleBoxMdn(event,4509)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVLop</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,56L0.0,56L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">insert (ins)</tspan>
+			<tspan x="4" y="48" class="bivec">remove (rmv)</tspan>
+		</text>
+	</g>
+	<g id="box4510" transform="translate(1215,15)" onmousedown="handleBoxMdn(event,4510)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVMaintable</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,704L0.0,704L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">none (void)</tspan>
+			<tspan x="4" y="48" class="bivec">accessor app (TblWznmMApp)</tspan>
+			<tspan x="4" y="60" class="bivec">block (TblWznmMBlock)</tspan>
+			<tspan x="4" y="72" class="bivec">box (TblWznmMBox)</tspan>
+			<tspan x="4" y="84" class="bivec">call (TblWznmMCall)</tspan>
+			<tspan x="4" y="96" class="bivec">capability (TblWznmMCapability)</tspan>
+			<tspan x="4" y="108" class="bivec">card (TblWznmMCard)</tspan>
+			<tspan x="4" y="120" class="bivec">feature check (TblWznmMCheck)</tspan>
+			<tspan x="4" y="132" class="bivec">component (TblWznmMComponent)</tspan>
+			<tspan x="4" y="144" class="bivec">control (TblWznmMControl)</tspan>
+			<tspan x="4" y="156" class="bivec">dialog (TblWznmMDialog)</tspan>
+			<tspan x="4" y="168" class="bivec">error (TblWznmMError)</tspan>
+			<tspan x="4" y="180" class="bivec">event (TblWznmMEvent)</tspan>
+			<tspan x="4" y="192" class="bivec">feed (TblWznmMFeed)</tspan>
+			<tspan x="4" y="204" class="bivec">file (TblWznmMFile)</tspan>
+			<tspan x="4" y="216" class="bivec">import/export (TblWznmMImpexp)</tspan>
+			<tspan x="4" y="228" class="bivec">import/export column (TblWznmMImpexpcol)</tspan>
+			<tspan x="4" y="240" class="bivec">import/export complex (TblWznmMImpexpcplx)</tspan>
+			<tspan x="4" y="252" class="bivec">job (TblWznmMJob)</tspan>
+			<tspan x="4" y="264" class="bivec">library (TblWznmMLibrary)</tspan>
+			<tspan x="4" y="276" class="bivec">locale (TblWznmMLocale)</tspan>
+			<tspan x="4" y="288" class="bivec">machine (TblWznmMMachine)</tspan>
+			<tspan x="4" y="300" class="bivec">method (TblWznmMMethod)</tspan>
+			<tspan x="4" y="312" class="bivec">module (TblWznmMModule)</tspan>
+			<tspan x="4" y="324" class="bivec">operation (TblWznmMOp)</tspan>
+			<tspan x="4" y="336" class="bivec">operation pack (TblWznmMOppack)</tspan>
+			<tspan x="4" y="348" class="bivec">panel (TblWznmMPanel)</tspan>
+			<tspan x="4" y="360" class="bivec">person (TblWznmMPerson)</tspan>
+			<tspan x="4" y="372" class="bivec">presetting (TblWznmMPreset)</tspan>
+			<tspan x="4" y="384" class="bivec">project (TblWznmMProject)</tspan>
+			<tspan x="4" y="396" class="bivec">query (TblWznmMQuery)</tspan>
+			<tspan x="4" y="408" class="bivec">query column (TblWznmMQuerycol)</tspan>
+			<tspan x="4" y="420" class="bivec">query modifier (TblWznmMQuerymod)</tspan>
+			<tspan x="4" y="432" class="bivec">relation (TblWznmMRelation)</tspan>
+			<tspan x="4" y="444" class="bivec">release (TblWznmMRelease)</tspan>
+			<tspan x="4" y="456" class="bivec">run-time data block (TblWznmMRtblock)</tspan>
+			<tspan x="4" y="468" class="bivec">run-time dispatch (TblWznmMRtdpch)</tspan>
+			<tspan x="4" y="480" class="bivec">run-time job (TblWznmMRtjob)</tspan>
+			<tspan x="4" y="492" class="bivec">sensitivity (TblWznmMSensitivity)</tspan>
+			<tspan x="4" y="504" class="bivec">sequence (TblWznmMSequence)</tspan>
+			<tspan x="4" y="516" class="bivec">session (TblWznmMSession)</tspan>
+			<tspan x="4" y="528" class="bivec">sheet (TblWznmMSheet)</tspan>
+			<tspan x="4" y="540" class="bivec">squawk (TblWznmMSquawk)</tspan>
+			<tspan x="4" y="552" class="bivec">stage (TblWznmMStage)</tspan>
+			<tspan x="4" y="564" class="bivec">state (TblWznmMState)</tspan>
+			<tspan x="4" y="576" class="bivec">stub (TblWznmMStub)</tspan>
+			<tspan x="4" y="588" class="bivec">subset (TblWznmMSubset)</tspan>
+			<tspan x="4" y="600" class="bivec">table (TblWznmMTable)</tspan>
+			<tspan x="4" y="612" class="bivec">table column (TblWznmMTablecol)</tspan>
+			<tspan x="4" y="624" class="bivec">tag (TblWznmMTag)</tspan>
+			<tspan x="4" y="636" class="bivec">user (TblWznmMUser)</tspan>
+			<tspan x="4" y="648" class="bivec">user group (TblWznmMUsergroup)</tspan>
+			<tspan x="4" y="660" class="bivec">vector (TblWznmMVector)</tspan>
+			<tspan x="4" y="672" class="bivec">vector item (TblWznmMVectoritem)</tspan>
+			<tspan x="4" y="684" class="bivec">version (TblWznmMVersion)</tspan>
+			<tspan x="4" y="696" class="bivec">visualization (TblWznmMVisual)</tspan>
+		</text>
+	</g>
+	<g id="box4511" transform="translate(1415,15)" onmousedown="handleBoxMdn(event,4511)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVOolop</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,104L0.0,104L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">insert after (ina)</tspan>
+			<tspan x="4" y="48" class="bivec">insert before (inb)</tspan>
+			<tspan x="4" y="60" class="bivec">remove (rmv)</tspan>
+			<tspan x="4" y="72" class="bivec">swap (swp)</tspan>
+			<tspan x="4" y="84" class="bivec">move to after (toa)</tspan>
+			<tspan x="4" y="96" class="bivec">move to before (tob)</tspan>
+		</text>
+	</g>
+	<g id="box4512" transform="translate(415,89)" onmousedown="handleBoxMdn(event,4512)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVPreset</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,4328L0.0,4328L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">none (void)</tspan>
+			<tspan x="4" y="48" class="bivec">PreWznmAdmin</tspan>
+			<tspan x="4" y="60" class="bivec">PreWznmAppList.grp</tspan>
+			<tspan x="4" y="72" class="bivec">PreWznmAppList.own</tspan>
+			<tspan x="4" y="84" class="bivec">PreWznmAppList.tit</tspan>
+			<tspan x="4" y="96" class="bivec">PreWznmAppList.trg</tspan>
+			<tspan x="4" y="108" class="bivec">PreWznmAppList.ver</tspan>
+			<tspan x="4" y="120" class="bivec">PreWznmBlkList.ret</tspan>
+			<tspan x="4" y="132" class="bivec">PreWznmBlkList.reu</tspan>
+			<tspan x="4" y="144" class="bivec">PreWznmBlkList.srf</tspan>
+			<tspan x="4" y="156" class="bivec">PreWznmBlkList.typ</tspan>
+			<tspan x="4" y="168" class="bivec">PreWznmBlkList.ver</tspan>
+			<tspan x="4" y="180" class="bivec">PreWznmBoxList.mtb</tspan>
+			<tspan x="4" y="192" class="bivec">PreWznmBoxList.sht</tspan>
+			<tspan x="4" y="204" class="bivec">PreWznmBoxList.unv</tspan>
+			<tspan x="4" y="216" class="bivec">PreWznmCalList.iat</tspan>
+			<tspan x="4" y="228" class="bivec">PreWznmCalList.rat</tspan>
+			<tspan x="4" y="240" class="bivec">PreWznmCalList.ret</tspan>
+			<tspan x="4" y="252" class="bivec">PreWznmCalList.reu</tspan>
+			<tspan x="4" y="264" class="bivec">PreWznmCalList.srf</tspan>
+			<tspan x="4" y="276" class="bivec">PreWznmCalList.typ</tspan>
+			<tspan x="4" y="288" class="bivec">PreWznmCalList.ver</tspan>
+			<tspan x="4" y="300" class="bivec">PreWznmCapAPar.x1</tspan>
+			<tspan x="4" y="312" class="bivec">PreWznmCapList.srf</tspan>
+			<tspan x="4" y="324" class="bivec">PreWznmCapList.tpl</tspan>
+			<tspan x="4" y="336" class="bivec">PreWznmCapList.ver</tspan>
+			<tspan x="4" y="348" class="bivec">PreWznmCarList.mdl</tspan>
+			<tspan x="4" y="360" class="bivec">PreWznmCarList.ret</tspan>
+			<tspan x="4" y="372" class="bivec">PreWznmCarList.reu</tspan>
+			<tspan x="4" y="384" class="bivec">PreWznmCarList.srf</tspan>
+			<tspan x="4" y="396" class="bivec">PreWznmChkList.srf</tspan>
+			<tspan x="4" y="408" class="bivec">PreWznmChkList.tbl</tspan>
+			<tspan x="4" y="420" class="bivec">PreWznmChkList.tco</tspan>
+			<tspan x="4" y="432" class="bivec">PreWznmChkList.typ</tspan>
+			<tspan x="4" y="444" class="bivec">PreWznmCmpList.srf</tspan>
+			<tspan x="4" y="456" class="bivec">PreWznmCmpList.typ</tspan>
+			<tspan x="4" y="468" class="bivec">PreWznmCmpList.ver</tspan>
+			<tspan x="4" y="480" class="bivec">PreWznmConAPar.x1</tspan>
+			<tspan x="4" y="492" class="bivec">PreWznmConAPar.x2</tspan>
+			<tspan x="4" y="504" class="bivec">PreWznmConList.hkt</tspan>
+			<tspan x="4" y="516" class="bivec">PreWznmConList.hku</tspan>
+			<tspan x="4" y="528" class="bivec">PreWznmConList.ret</tspan>
+			<tspan x="4" y="540" class="bivec">PreWznmConList.reu</tspan>
+			<tspan x="4" y="552" class="bivec">PreWznmConList.sct</tspan>
+			<tspan x="4" y="564" class="bivec">PreWznmConList.srf</tspan>
+			<tspan x="4" y="576" class="bivec">PreWznmConList.sup</tspan>
+			<tspan x="4" y="588" class="bivec">PreWznmConList.typ</tspan>
+			<tspan x="4" y="600" class="bivec">PreWznmCtpAPar.x1</tspan>
+			<tspan x="4" y="612" class="bivec">PreWznmCtpList.srf</tspan>
+			<tspan x="4" y="624" class="bivec">PreWznmCtpList.ver</tspan>
+			<tspan x="4" y="636" class="bivec">PreWznmDlgList.car</tspan>
+			<tspan x="4" y="648" class="bivec">PreWznmDlgList.ret</tspan>
+			<tspan x="4" y="660" class="bivec">PreWznmDlgList.reu</tspan>
+			<tspan x="4" y="672" class="bivec">PreWznmDlgList.srf</tspan>
+			<tspan x="4" y="684" class="bivec">PreWznmDlgList.typ</tspan>
+			<tspan x="4" y="696" class="bivec">PreWznmErrList.srf</tspan>
+			<tspan x="4" y="708" class="bivec">PreWznmErrList.ver</tspan>
+			<tspan x="4" y="720" class="bivec">PreWznmEvtList.app</tspan>
+			<tspan x="4" y="732" class="bivec">PreWznmEvtList.srf</tspan>
+			<tspan x="4" y="744" class="bivec">extract folder (PreWznmExtfolder)</tspan>
+			<tspan x="4" y="756" class="bivec">PreWznmFilList.fnm</tspan>
+			<tspan x="4" y="768" class="bivec">PreWznmFilList.grp</tspan>
+			<tspan x="4" y="780" class="bivec">PreWznmFilList.own</tspan>
+			<tspan x="4" y="792" class="bivec">PreWznmFilList.ret</tspan>
+			<tspan x="4" y="804" class="bivec">PreWznmFilList.reu</tspan>
+			<tspan x="4" y="816" class="bivec">Git URL (PreWznmGiturl)</tspan>
+			<tspan x="4" y="828" class="bivec">PreWznmGroup</tspan>
+			<tspan x="4" y="840" class="bivec">PreWznmIelList.ime</tspan>
+			<tspan x="4" y="852" class="bivec">PreWznmIelList.srf</tspan>
+			<tspan x="4" y="864" class="bivec">PreWznmIelList.tco</tspan>
+			<tspan x="4" y="876" class="bivec">PreWznmIelList.typ</tspan>
+			<tspan x="4" y="888" class="bivec">PreWznmIexList.srf</tspan>
+			<tspan x="4" y="900" class="bivec">PreWznmIexList.ver</tspan>
+			<tspan x="4" y="912" class="bivec">PreWznmImeList.iex</tspan>
+			<tspan x="4" y="924" class="bivec">PreWznmImeList.srf</tspan>
+			<tspan x="4" y="936" class="bivec">PreWznmImeList.sup</tspan>
+			<tspan x="4" y="948" class="bivec">PreWznmImeList.tbl</tspan>
+			<tspan x="4" y="960" class="bivec">PreWznmIp</tspan>
+			<tspan x="4" y="972" class="bivec">base repository type (PreWznmIxBasereptype)</tspan>
+			<tspan x="4" y="984" class="bivec">PreWznmIxCrdaccApp</tspan>
+			<tspan x="4" y="996" class="bivec">PreWznmIxCrdaccBlk</tspan>
+			<tspan x="4" y="1008" class="bivec">PreWznmIxCrdaccBox</tspan>
+			<tspan x="4" y="1020" class="bivec">PreWznmIxCrdaccCal</tspan>
+			<tspan x="4" y="1032" class="bivec">PreWznmIxCrdaccCap</tspan>
+			<tspan x="4" y="1044" class="bivec">PreWznmIxCrdaccCar</tspan>
+			<tspan x="4" y="1056" class="bivec">PreWznmIxCrdaccChk</tspan>
+			<tspan x="4" y="1068" class="bivec">PreWznmIxCrdaccCmp</tspan>
+			<tspan x="4" y="1080" class="bivec">PreWznmIxCrdaccCon</tspan>
+			<tspan x="4" y="1092" class="bivec">PreWznmIxCrdaccCtp</tspan>
+			<tspan x="4" y="1104" class="bivec">PreWznmIxCrdaccDlg</tspan>
+			<tspan x="4" y="1116" class="bivec">PreWznmIxCrdaccErr</tspan>
+			<tspan x="4" y="1128" class="bivec">PreWznmIxCrdaccEvt</tspan>
+			<tspan x="4" y="1140" class="bivec">PreWznmIxCrdaccFil</tspan>
+			<tspan x="4" y="1152" class="bivec">PreWznmIxCrdaccIel</tspan>
+			<tspan x="4" y="1164" class="bivec">PreWznmIxCrdaccIex</tspan>
+			<tspan x="4" y="1176" class="bivec">PreWznmIxCrdaccIme</tspan>
+			<tspan x="4" y="1188" class="bivec">PreWznmIxCrdaccJob</tspan>
+			<tspan x="4" y="1200" class="bivec">PreWznmIxCrdaccLib</tspan>
+			<tspan x="4" y="1212" class="bivec">PreWznmIxCrdaccLoc</tspan>
+			<tspan x="4" y="1224" class="bivec">PreWznmIxCrdaccMch</tspan>
+			<tspan x="4" y="1236" class="bivec">PreWznmIxCrdaccMdl</tspan>
+			<tspan x="4" y="1248" class="bivec">PreWznmIxCrdaccMtd</tspan>
+			<tspan x="4" y="1260" class="bivec">PreWznmIxCrdaccOpk</tspan>
+			<tspan x="4" y="1272" class="bivec">PreWznmIxCrdaccOpx</tspan>
+			<tspan x="4" y="1284" class="bivec">PreWznmIxCrdaccPnl</tspan>
+			<tspan x="4" y="1296" class="bivec">PreWznmIxCrdaccPrj</tspan>
+			<tspan x="4" y="1308" class="bivec">PreWznmIxCrdaccPrs</tspan>
+			<tspan x="4" y="1320" class="bivec">PreWznmIxCrdaccPst</tspan>
+			<tspan x="4" y="1332" class="bivec">PreWznmIxCrdaccQco</tspan>
+			<tspan x="4" y="1344" class="bivec">PreWznmIxCrdaccQmd</tspan>
+			<tspan x="4" y="1356" class="bivec">PreWznmIxCrdaccQry</tspan>
+			<tspan x="4" y="1368" class="bivec">PreWznmIxCrdaccRel</tspan>
+			<tspan x="4" y="1380" class="bivec">PreWznmIxCrdaccRls</tspan>
+			<tspan x="4" y="1392" class="bivec">PreWznmIxCrdaccRtj</tspan>
+			<tspan x="4" y="1404" class="bivec">PreWznmIxCrdaccSbs</tspan>
+			<tspan x="4" y="1416" class="bivec">PreWznmIxCrdaccSeq</tspan>
+			<tspan x="4" y="1428" class="bivec">PreWznmIxCrdaccSge</tspan>
+			<tspan x="4" y="1440" class="bivec">PreWznmIxCrdaccSht</tspan>
+			<tspan x="4" y="1452" class="bivec">PreWznmIxCrdaccStb</tspan>
+			<tspan x="4" y="1464" class="bivec">PreWznmIxCrdaccSte</tspan>
+			<tspan x="4" y="1476" class="bivec">PreWznmIxCrdaccTag</tspan>
+			<tspan x="4" y="1488" class="bivec">PreWznmIxCrdaccTbl</tspan>
+			<tspan x="4" y="1500" class="bivec">PreWznmIxCrdaccTco</tspan>
+			<tspan x="4" y="1512" class="bivec">PreWznmIxCrdaccUsg</tspan>
+			<tspan x="4" y="1524" class="bivec">PreWznmIxCrdaccUsr</tspan>
+			<tspan x="4" y="1536" class="bivec">PreWznmIxCrdaccUtl</tspan>
+			<tspan x="4" y="1548" class="bivec">PreWznmIxCrdaccVec</tspan>
+			<tspan x="4" y="1560" class="bivec">PreWznmIxCrdaccVer</tspan>
+			<tspan x="4" y="1572" class="bivec">PreWznmIxCrdaccVis</tspan>
+			<tspan x="4" y="1584" class="bivec">PreWznmIxCrdaccVit</tspan>
+			<tspan x="4" y="1596" class="bivec">PreWznmIxLcl</tspan>
+			<tspan x="4" y="1608" class="bivec">PreWznmIxOrd</tspan>
+			<tspan x="4" y="1620" class="bivec">PreWznmIxPre</tspan>
+			<tspan x="4" y="1632" class="bivec">PreWznmIxRecacc</tspan>
+			<tspan x="4" y="1644" class="bivec">PreWznmJobList.gbl</tspan>
+			<tspan x="4" y="1656" class="bivec">PreWznmJobList.ret</tspan>
+			<tspan x="4" y="1668" class="bivec">PreWznmJobList.reu</tspan>
+			<tspan x="4" y="1680" class="bivec">PreWznmJobList.srf</tspan>
+			<tspan x="4" y="1692" class="bivec">PreWznmJobList.typ</tspan>
+			<tspan x="4" y="1704" class="bivec">PreWznmJobList.ver</tspan>
+			<tspan x="4" y="1716" class="bivec">PreWznmJrefNotify</tspan>
+			<tspan x="4" y="1728" class="bivec">PreWznmJrefSess</tspan>
+			<tspan x="4" y="1740" class="bivec">PreWznmLibAMakefile.x1</tspan>
+			<tspan x="4" y="1752" class="bivec">PreWznmLibAMakefile.x2</tspan>
+			<tspan x="4" y="1764" class="bivec">PreWznmLibAPkglist.x1</tspan>
+			<tspan x="4" y="1776" class="bivec">PreWznmLibList.srf</tspan>
+			<tspan x="4" y="1788" class="bivec">PreWznmLocList.srf</tspan>
+			<tspan x="4" y="1800" class="bivec">PreWznmMchAMakefile.x1</tspan>
+			<tspan x="4" y="1812" class="bivec">PreWznmMchAPar.x1</tspan>
+			<tspan x="4" y="1824" class="bivec">PreWznmMchList.srf</tspan>
+			<tspan x="4" y="1836" class="bivec">PreWznmMchList.sup</tspan>
+			<tspan x="4" y="1848" class="bivec">PreWznmMdlList.srf</tspan>
+			<tspan x="4" y="1860" class="bivec">PreWznmMdlList.ver</tspan>
+			<tspan x="4" y="1872" class="bivec">PreWznmMtdList.job</tspan>
+			<tspan x="4" y="1884" class="bivec">PreWznmMtdList.srf</tspan>
+			<tspan x="4" y="1896" class="bivec">PreWznmNoadm</tspan>
+			<tspan x="4" y="1908" class="bivec">PreWznmOpkList.srf</tspan>
+			<tspan x="4" y="1920" class="bivec">PreWznmOpkList.typ</tspan>
+			<tspan x="4" y="1932" class="bivec">PreWznmOpkList.ver</tspan>
+			<tspan x="4" y="1944" class="bivec">PreWznmOpxList.opk</tspan>
+			<tspan x="4" y="1956" class="bivec">PreWznmOpxList.srf</tspan>
+			<tspan x="4" y="1968" class="bivec">PreWznmOwner</tspan>
+			<tspan x="4" y="1980" class="bivec">PreWznmPnlList.car</tspan>
+			<tspan x="4" y="1992" class="bivec">PreWznmPnlList.ret</tspan>
+			<tspan x="4" y="2004" class="bivec">PreWznmPnlList.reu</tspan>
+			<tspan x="4" y="2016" class="bivec">PreWznmPnlList.srf</tspan>
+			<tspan x="4" y="2028" class="bivec">PreWznmPnlList.typ</tspan>
+			<tspan x="4" y="2040" class="bivec">PreWznmPrjList.grp</tspan>
+			<tspan x="4" y="2052" class="bivec">PreWznmPrjList.own</tspan>
+			<tspan x="4" y="2064" class="bivec">PreWznmPrjList.sho</tspan>
+			<tspan x="4" y="2076" class="bivec">PreWznmPrjList.tit</tspan>
+			<tspan x="4" y="2088" class="bivec">PreWznmPrjList.ver</tspan>
+			<tspan x="4" y="2100" class="bivec">PreWznmPrjMNPerson.x1</tspan>
+			<tspan x="4" y="2112" class="bivec">PreWznmPrsADetail.x1</tspan>
+			<tspan x="4" y="2124" class="bivec">PreWznmPrsList.grp</tspan>
+			<tspan x="4" y="2136" class="bivec">PreWznmPrsList.lnm</tspan>
+			<tspan x="4" y="2148" class="bivec">PreWznmPrsList.own</tspan>
+			<tspan x="4" y="2160" class="bivec">PreWznmPrsMNProject.x1</tspan>
+			<tspan x="4" y="2172" class="bivec">PreWznmPstList.aty</tspan>
+			<tspan x="4" y="2184" class="bivec">PreWznmPstList.ret</tspan>
+			<tspan x="4" y="2196" class="bivec">PreWznmPstList.reu</tspan>
+			<tspan x="4" y="2208" class="bivec">PreWznmPstList.srf</tspan>
+			<tspan x="4" y="2220" class="bivec">PreWznmPstList.ver</tspan>
+			<tspan x="4" y="2232" class="bivec">PreWznmQcoList.qry</tspan>
+			<tspan x="4" y="2244" class="bivec">PreWznmQcoList.srf</tspan>
+			<tspan x="4" y="2256" class="bivec">PreWznmQcoList.tco</tspan>
+			<tspan x="4" y="2268" class="bivec">PreWznmQcoList.typ</tspan>
+			<tspan x="4" y="2280" class="bivec">PreWznmQmdList.pst</tspan>
+			<tspan x="4" y="2292" class="bivec">PreWznmQmdList.qry</tspan>
+			<tspan x="4" y="2304" class="bivec">PreWznmQmdList.ret</tspan>
+			<tspan x="4" y="2316" class="bivec">PreWznmQmdList.reu</tspan>
+			<tspan x="4" y="2328" class="bivec">PreWznmQmdList.typ</tspan>
+			<tspan x="4" y="2340" class="bivec">PreWznmQryAClause.x1</tspan>
+			<tspan x="4" y="2352" class="bivec">PreWznmQryList.qtb</tspan>
+			<tspan x="4" y="2364" class="bivec">PreWznmQryList.srf</tspan>
+			<tspan x="4" y="2376" class="bivec">PreWznmQryList.srl</tspan>
+			<tspan x="4" y="2388" class="bivec">PreWznmQryList.sup</tspan>
+			<tspan x="4" y="2400" class="bivec">PreWznmQryList.tbl</tspan>
+			<tspan x="4" y="2412" class="bivec">PreWznmQryList.typ</tspan>
+			<tspan x="4" y="2424" class="bivec">PreWznmQryList.ver</tspan>
+			<tspan x="4" y="2436" class="bivec">accessor app (PreWznmRefApp)</tspan>
+			<tspan x="4" y="2448" class="bivec">block (PreWznmRefBlk)</tspan>
+			<tspan x="4" y="2460" class="bivec">box (PreWznmRefBox)</tspan>
+			<tspan x="4" y="2472" class="bivec">action-invoking control (PreWznmRefCai)</tspan>
+			<tspan x="4" y="2484" class="bivec">call (PreWznmRefCal)</tspan>
+			<tspan x="4" y="2496" class="bivec">capability (PreWznmRefCap)</tspan>
+			<tspan x="4" y="2508" class="bivec">card (PreWznmRefCar)</tspan>
+			<tspan x="4" y="2520" class="bivec">compileable component (PreWznmRefCcp)</tspan>
+			<tspan x="4" y="2532" class="bivec">data change call (PreWznmRefCdc)</tspan>
+			<tspan x="4" y="2544" class="bivec">feed-backed control (PreWznmRefCfb)</tspan>
+			<tspan x="4" y="2556" class="bivec">feature check (PreWznmRefChk)</tspan>
+			<tspan x="4" y="2568" class="bivec">component (PreWznmRefCmp)</tspan>
+			<tspan x="4" y="2580" class="bivec">control (PreWznmRefCon)</tspan>
+			<tspan x="4" y="2592" class="bivec">capability (PreWznmRefCpb)</tspan>
+			<tspan x="4" y="2604" class="bivec">capability template (PreWznmRefCtp)</tspan>
+			<tspan x="4" y="2616" class="bivec">dialog (PreWznmRefDlg)</tspan>
+			<tspan x="4" y="2628" class="bivec">error (PreWznmRefErr)</tspan>
+			<tspan x="4" y="2640" class="bivec">event (PreWznmRefEvt)</tspan>
+			<tspan x="4" y="2652" class="bivec">feed (PreWznmRefFed)</tspan>
+			<tspan x="4" y="2664" class="bivec">file (PreWznmRefFil)</tspan>
+			<tspan x="4" y="2676" class="bivec">import/export column (PreWznmRefIel)</tspan>
+			<tspan x="4" y="2688" class="bivec">import/export complex (PreWznmRefIex)</tspan>
+			<tspan x="4" y="2700" class="bivec">import/export (PreWznmRefIme)</tspan>
+			<tspan x="4" y="2712" class="bivec">job (PreWznmRefJob)</tspan>
+			<tspan x="4" y="2724" class="bivec">key list (PreWznmRefKls)</tspan>
+			<tspan x="4" y="2736" class="bivec">library (PreWznmRefLib)</tspan>
+			<tspan x="4" y="2748" class="bivec">locale (PreWznmRefLoc)</tspan>
+			<tspan x="4" y="2760" class="bivec">machine (PreWznmRefMch)</tspan>
+			<tspan x="4" y="2772" class="bivec">module (PreWznmRefMdl)</tspan>
+			<tspan x="4" y="2784" class="bivec">main table (PreWznmRefMtb)</tspan>
+			<tspan x="4" y="2796" class="bivec">method (PreWznmRefMtd)</tspan>
+			<tspan x="4" y="2808" class="bivec">operation engine (PreWznmRefOen)</tspan>
+			<tspan x="4" y="2820" class="bivec">operation pack (PreWznmRefOpk)</tspan>
+			<tspan x="4" y="2832" class="bivec">operation (PreWznmRefOpx)</tspan>
+			<tspan x="4" y="2844" class="bivec">panel (PreWznmRefPnl)</tspan>
+			<tspan x="4" y="2856" class="bivec">project (PreWznmRefPrj)</tspan>
+			<tspan x="4" y="2868" class="bivec">person (PreWznmRefPrs)</tspan>
+			<tspan x="4" y="2880" class="bivec">presetting (PreWznmRefPst)</tspan>
+			<tspan x="4" y="2892" class="bivec">query column (PreWznmRefQco)</tspan>
+			<tspan x="4" y="2904" class="bivec">query modifier (PreWznmRefQmd)</tspan>
+			<tspan x="4" y="2916" class="bivec">query (PreWznmRefQry)</tspan>
+			<tspan x="4" y="2928" class="bivec">query table (PreWznmRefQtb)</tspan>
+			<tspan x="4" y="2940" class="bivec">relation (PreWznmRefRel)</tspan>
+			<tspan x="4" y="2952" class="bivec">release (PreWznmRefRls)</tspan>
+			<tspan x="4" y="2964" class="bivec">relation table (PreWznmRefRlt)</tspan>
+			<tspan x="4" y="2976" class="bivec">run-time data block (PreWznmRefRtb)</tspan>
+			<tspan x="4" y="2988" class="bivec">run-time dispatch (PreWznmRefRtd)</tspan>
+			<tspan x="4" y="3000" class="bivec">run-time job (PreWznmRefRtj)</tspan>
+			<tspan x="4" y="3012" class="bivec">subset (PreWznmRefSbs)</tspan>
+			<tspan x="4" y="3024" class="bivec">PreWznmRefSel</tspan>
+			<tspan x="4" y="3036" class="bivec">sequence (PreWznmRefSeq)</tspan>
+			<tspan x="4" y="3048" class="bivec">session (PreWznmRefSes)</tspan>
+			<tspan x="4" y="3060" class="bivec">stage (PreWznmRefSge)</tspan>
+			<tspan x="4" y="3072" class="bivec">sheet (PreWznmRefSht)</tspan>
+			<tspan x="4" y="3084" class="bivec">sensitivity (PreWznmRefSns)</tspan>
+			<tspan x="4" y="3096" class="bivec">squawk (PreWznmRefSqk)</tspan>
+			<tspan x="4" y="3108" class="bivec">stub (PreWznmRefStb)</tspan>
+			<tspan x="4" y="3120" class="bivec">storage table column (PreWznmRefStc)</tspan>
+			<tspan x="4" y="3132" class="bivec">state (PreWznmRefSte)</tspan>
+			<tspan x="4" y="3144" class="bivec">storage table (PreWznmRefStt)</tspan>
+			<tspan x="4" y="3156" class="bivec">tag (PreWznmRefTag)</tspan>
+			<tspan x="4" y="3168" class="bivec">table (PreWznmRefTbl)</tspan>
+			<tspan x="4" y="3180" class="bivec">table column (PreWznmRefTco)</tspan>
+			<tspan x="4" y="3192" class="bivec">user group (PreWznmRefUsg)</tspan>
+			<tspan x="4" y="3204" class="bivec">user (PreWznmRefUsr)</tspan>
+			<tspan x="4" y="3216" class="bivec">vector (PreWznmRefVec)</tspan>
+			<tspan x="4" y="3228" class="bivec">version (PreWznmRefVer)</tspan>
+			<tspan x="4" y="3240" class="bivec">visualization (PreWznmRefVis)</tspan>
+			<tspan x="4" y="3252" class="bivec">vector item (PreWznmRefVit)</tspan>
+			<tspan x="4" y="3264" class="bivec">PreWznmRelATitle.x1</tspan>
+			<tspan x="4" y="3276" class="bivec">PreWznmRelATitle.x2</tspan>
+			<tspan x="4" y="3288" class="bivec">PreWznmRelList.frs</tspan>
+			<tspan x="4" y="3300" class="bivec">PreWznmRelList.frt</tspan>
+			<tspan x="4" y="3312" class="bivec">PreWznmRelList.srl</tspan>
+			<tspan x="4" y="3324" class="bivec">PreWznmRelList.sup</tspan>
+			<tspan x="4" y="3336" class="bivec">PreWznmRelList.tbl</tspan>
+			<tspan x="4" y="3348" class="bivec">PreWznmRelList.tos</tspan>
+			<tspan x="4" y="3360" class="bivec">PreWznmRelList.tot</tspan>
+			<tspan x="4" y="3372" class="bivec">PreWznmRelList.typ</tspan>
+			<tspan x="4" y="3384" class="bivec">PreWznmRelList.ver</tspan>
+			<tspan x="4" y="3396" class="bivec">repository folder (PreWznmRepfolder)</tspan>
+			<tspan x="4" y="3408" class="bivec">PreWznmRlsList.cmp</tspan>
+			<tspan x="4" y="3420" class="bivec">PreWznmRlsList.mch</tspan>
+			<tspan x="4" y="3432" class="bivec">PreWznmRlsList.srf</tspan>
+			<tspan x="4" y="3444" class="bivec">PreWznmRtjList.app</tspan>
+			<tspan x="4" y="3456" class="bivec">PreWznmRtjList.job</tspan>
+			<tspan x="4" y="3468" class="bivec">PreWznmRtjList.srf</tspan>
+			<tspan x="4" y="3480" class="bivec">PreWznmRtjList.sup</tspan>
+			<tspan x="4" y="3492" class="bivec">PreWznmSbsATitle.x1</tspan>
+			<tspan x="4" y="3504" class="bivec">PreWznmSbsATitle.x2</tspan>
+			<tspan x="4" y="3516" class="bivec">PreWznmSbsList.srf</tspan>
+			<tspan x="4" y="3528" class="bivec">PreWznmSbsList.tbl</tspan>
+			<tspan x="4" y="3540" class="bivec">PreWznmSeqList.app</tspan>
+			<tspan x="4" y="3552" class="bivec">PreWznmSeqList.srf</tspan>
+			<tspan x="4" y="3564" class="bivec">PreWznmSess</tspan>
+			<tspan x="4" y="3576" class="bivec">PreWznmSgeList.job</tspan>
+			<tspan x="4" y="3588" class="bivec">PreWznmSgeList.srf</tspan>
+			<tspan x="4" y="3600" class="bivec">PreWznmSgeList.typ</tspan>
+			<tspan x="4" y="3612" class="bivec">PreWznmShtList.vis</tspan>
+			<tspan x="4" y="3624" class="bivec">PreWznmStbList.sbs</tspan>
+			<tspan x="4" y="3636" class="bivec">PreWznmStbList.srf</tspan>
+			<tspan x="4" y="3648" class="bivec">PreWznmStbList.tbl</tspan>
+			<tspan x="4" y="3660" class="bivec">PreWznmStbList.typ</tspan>
+			<tspan x="4" y="3672" class="bivec">PreWznmSteList.seq</tspan>
+			<tspan x="4" y="3684" class="bivec">PreWznmSteList.srf</tspan>
+			<tspan x="4" y="3696" class="bivec">PreWznmSuspsess</tspan>
+			<tspan x="4" y="3708" class="bivec">PreWznmSysdate</tspan>
+			<tspan x="4" y="3720" class="bivec">PreWznmSysstamp</tspan>
+			<tspan x="4" y="3732" class="bivec">PreWznmSystime</tspan>
+			<tspan x="4" y="3744" class="bivec">PreWznmTagList.cpb</tspan>
+			<tspan x="4" y="3756" class="bivec">PreWznmTagList.grp</tspan>
+			<tspan x="4" y="3768" class="bivec">PreWznmTagList.srf</tspan>
+			<tspan x="4" y="3780" class="bivec">PreWznmTblATitle.x1</tspan>
+			<tspan x="4" y="3792" class="bivec">PreWznmTblATitle.x2</tspan>
+			<tspan x="4" y="3804" class="bivec">PreWznmTblList.ret</tspan>
+			<tspan x="4" y="3816" class="bivec">PreWznmTblList.reu</tspan>
+			<tspan x="4" y="3828" class="bivec">PreWznmTblList.srf</tspan>
+			<tspan x="4" y="3840" class="bivec">PreWznmTblList.typ</tspan>
+			<tspan x="4" y="3852" class="bivec">PreWznmTblList.ver</tspan>
+			<tspan x="4" y="3864" class="bivec">PreWznmTcoATitle.x1</tspan>
+			<tspan x="4" y="3876" class="bivec">PreWznmTcoATitle.x2</tspan>
+			<tspan x="4" y="3888" class="bivec">PreWznmTcoList.fct</tspan>
+			<tspan x="4" y="3900" class="bivec">PreWznmTcoList.srf</tspan>
+			<tspan x="4" y="3912" class="bivec">PreWznmTcoList.tbl</tspan>
+			<tspan x="4" y="3924" class="bivec">PreWznmTcoList.typ</tspan>
+			<tspan x="4" y="3936" class="bivec">PreWznmTlast</tspan>
+			<tspan x="4" y="3948" class="bivec">PreWznmUsgAAccess.x1</tspan>
+			<tspan x="4" y="3960" class="bivec">PreWznmUsgAAccess.x2</tspan>
+			<tspan x="4" y="3972" class="bivec">PreWznmUsgList.grp</tspan>
+			<tspan x="4" y="3984" class="bivec">PreWznmUsgList.own</tspan>
+			<tspan x="4" y="3996" class="bivec">PreWznmUsgList.srf</tspan>
+			<tspan x="4" y="4008" class="bivec">PreWznmUsrAAccess.x1</tspan>
+			<tspan x="4" y="4020" class="bivec">PreWznmUsrAAccess.x2</tspan>
+			<tspan x="4" y="4032" class="bivec">PreWznmUsrList.grp</tspan>
+			<tspan x="4" y="4044" class="bivec">PreWznmUsrList.own</tspan>
+			<tspan x="4" y="4056" class="bivec">PreWznmUsrList.prs</tspan>
+			<tspan x="4" y="4068" class="bivec">PreWznmUsrList.srf</tspan>
+			<tspan x="4" y="4080" class="bivec">PreWznmUsrList.usg</tspan>
+			<tspan x="4" y="4092" class="bivec">PreWznmVecATitle.x1</tspan>
+			<tspan x="4" y="4104" class="bivec">PreWznmVecATitle.x2</tspan>
+			<tspan x="4" y="4116" class="bivec">PreWznmVecList.hkt</tspan>
+			<tspan x="4" y="4128" class="bivec">PreWznmVecList.hku</tspan>
+			<tspan x="4" y="4140" class="bivec">PreWznmVecList.srf</tspan>
+			<tspan x="4" y="4152" class="bivec">PreWznmVecList.tgr</tspan>
+			<tspan x="4" y="4164" class="bivec">PreWznmVecList.typ</tspan>
+			<tspan x="4" y="4176" class="bivec">PreWznmVecList.ver</tspan>
+			<tspan x="4" y="4188" class="bivec">PreWznmVerList.bvr</tspan>
+			<tspan x="4" y="4200" class="bivec">PreWznmVerList.grp</tspan>
+			<tspan x="4" y="4212" class="bivec">PreWznmVerList.loc</tspan>
+			<tspan x="4" y="4224" class="bivec">PreWznmVerList.own</tspan>
+			<tspan x="4" y="4236" class="bivec">PreWznmVerList.prj</tspan>
+			<tspan x="4" y="4248" class="bivec">PreWznmVerList.ste</tspan>
+			<tspan x="4" y="4260" class="bivec">PreWznmVisList.grp</tspan>
+			<tspan x="4" y="4272" class="bivec">PreWznmVisList.own</tspan>
+			<tspan x="4" y="4284" class="bivec">PreWznmVisList.typ</tspan>
+			<tspan x="4" y="4296" class="bivec">PreWznmVisList.ver</tspan>
+			<tspan x="4" y="4308" class="bivec">PreWznmVitList.srf</tspan>
+			<tspan x="4" y="4320" class="bivec">PreWznmVitList.vec</tspan>
+		</text>
+	</g>
+	<g id="box4513" transform="translate(815,101)" onmousedown="handleBoxMdn(event,4513)">
+		<path d="M0.0,0L170,0L170,22L0.0,22L0.0,0z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="85" y="14" class="bihdrlite">VecWznmVValuelist</tspan>
+		</text>
+		<path d="M0.0,22L170,22L170,44L0.0,44L0.0,22z" class="boxlite"/>
+		<text xml:space="preserve">
+			<tspan x="4" y="36" class="bivec">title (VlstWznmUMPersonTitle)</tspan>
+		</text>
+	</g>
+</svg>
