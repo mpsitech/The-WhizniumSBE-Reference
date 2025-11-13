@@ -21,6 +21,6 @@ Welcome to the WhizniumSBE Reference
 Release
 =======
 
-This documentation corresponds to WhizniumSBE version 1.1.13, part of the 2025.1 Whiznium release.
+This documentation corresponds to WhizniumSBE version 1.1.15, part of the 2025.2 Whiznium release.
 
-Last update: March 27, 2025.
+Last update: November 13, 2025.
