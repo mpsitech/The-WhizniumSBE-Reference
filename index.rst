@@ -11,8 +11,6 @@ Welcome to the WhizniumSBE Reference
 
    oview/index
 
-   spot/index
-
    dbstr/index
    impexp/index
 
@@ -21,6 +19,6 @@ Welcome to the WhizniumSBE Reference
 Release
 =======
 
-This documentation corresponds to WhizniumSBE version 1.1.15, part of the 2025.2 Whiznium release.
+This documentation corresponds to WhizniumSBE version 1.1.16, part of the 2026.1 Whiznium release.
 
-Last update: November 13, 2025.
+Last update: February 10, 2026.
