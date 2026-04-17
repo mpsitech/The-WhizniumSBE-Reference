@@ -1,3 +1,0 @@
-Access rights management
-===
-
