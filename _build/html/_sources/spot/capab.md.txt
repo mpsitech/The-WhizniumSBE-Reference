@@ -1,3 +1,0 @@
-Extensible capability templates
-===
-
